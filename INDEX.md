@@ -3,7 +3,7 @@
 Busque aqui primeiro. Detalhes, `alternativas` e `combina-com` ficam no frontmatter de cada `tools/<nome>/README.md`.
 Gerado por `scripts/build_index.py`; não edite à mão.
 
-Seções: [Pesquisa](#pesquisa) · [Economia de tokens](#economia-de-tokens) · [Design](#design) · [Jogos](#jogos) · [Godot](#godot) · [Aprendizado](#aprendizado) · [Imagem e vídeo](#imagem-e-vídeo) · [Marketing](#marketing)
+Seções: [Pesquisa](#pesquisa) · [Economia de tokens](#economia-de-tokens) · [Design](#design) · [Jogos](#jogos) · [Godot](#godot) · [Aprendizado](#aprendizado) · [Imagem e vídeo](#imagem-e-vídeo) · [Marketing](#marketing) · [Redes sociais](#redes-sociais)
 
 ## Pesquisa
 
@@ -211,3 +211,44 @@ Seções: [Pesquisa](#pesquisa) · [Economia de tokens](#economia-de-tokens) · 
 | [socialclaw](tools/socialclaw) | mcp | MCP hospedado de publicação em redes sociais com 17 ferramentas e contas via OAuth. | catalogado |
 | [supermetrics](tools/supermetrics) | mcp | Dados de mais de 200 fontes de marketing (Google Ads, Meta, GA, TikTok, LinkedIn, YouTube) num só conector. | catalogado |
 | [typefully](tools/typefully) | mcp | Agenda e escreve posts para X, LinkedIn, Substack, Threads, Bluesky e Mastodon. | catalogado |
+
+## Redes sociais
+
+**Comece por:** postiz ou buffer-mcp (agendar) + MCP da rede principal + social-calendar-skill + octolens (escuta)
+
+| Ferramenta | Tipo | Descrição | Status |
+|---|---|---|---|
+| [ayrshare-mcp](tools/ayrshare-mcp) | mcp | API de redes sociais para desenvolvedores com MCP cobrindo mais de 13 plataformas. | catalogado |
+| [bluesky-mcp](tools/bluesky-mcp) | mcp | Conjunto de ferramentas MCP para interagir com o Bluesky. | catalogado |
+| [buffer-mcp](tools/buffer-mcp) | mcp | MCP do Buffer em todos os planos (inclusive o grátis): cria e agenda posts, gerencia fila, ideias e analytics. | catalogado |
+| [claude-code-channels](tools/claude-code-channels) | plugin | Recurso do Claude Code (março de 2026) que liga uma sessão ao Telegram ou Discord para conversar com o agente por lá. | catalogado |
+| [claude-instagram](tools/claude-instagram) | skill | Motor de conteúdo para Instagram: 13 sub-skills, 6 agentes, ganchos, Reels, carrosséis e pontuação de 100 pontos. | catalogado |
+| [datalikers-mcp](tools/datalikers-mcp) | mcp | 29 ferramentas de dados do Instagram e TikTok. | catalogado |
+| [discord-mcp](tools/discord-mcp) | mcp | MCP de bot do Discord com cerca de 71 ferramentas: canais, cargos, moderação, eventos e automod. | catalogado |
+| [embedsocial](tools/embedsocial) | mcp | MCP oficial do EmbedSocial: posts, avaliações, menções e conteúdo gerado por usuários em relatórios. | catalogado |
+| [hasdata-social](tools/hasdata-social) | mcp | MCPs hospedados da HasData com dados públicos (só leitura) de perfis, posts, vídeos e comentários do Instagram e TikTok. | catalogado |
+| [insightsocial](tools/insightsocial) | mcp | CLI e MCP oficial com 239 endpoints de dados públicos de Instagram, TikTok, LinkedIn, YouTube, X e mais. | catalogado |
+| [instagram-mcp](tools/instagram-mcp) | mcp | Publica e agenda posts, carrosséis e Reels pela API oficial do Instagram (contas Business/Creator). | catalogado |
+| [instagram-skills](tools/instagram-skills) | skill | Skills de legendas, carrosséis, ganchos, hashtags e plano semanal para Instagram, na sua voz. | catalogado |
+| [intenthunter](tools/intenthunter) | mcp | Menções da marca e de concorrentes com pontuação, para filtrar e priorizar. | catalogado |
+| [linkedin-mcp](tools/linkedin-mcp) | mcp | MCP open source do LinkedIn: perfis, empresas, vagas e mensagens (o mais popular, mais de 3 mil estrelas). | catalogado |
+| [octolens](tools/octolens) | mcp | Escuta social: menções da marca em mais de 15 plataformas e gestão de palavras-chave. | catalogado |
+| [posteverywhere-mcp](tools/posteverywhere-mcp) | mcp | MCP oficial do PostEverywhere: agenda e publica em Instagram, TikTok, YouTube, LinkedIn, Facebook, X, Threads e Pinterest. | catalogado |
+| [postiz](tools/postiz) | mcp | Agendador open source com MCP próprio: contas, rascunhos, mídia, agendamento e publicação em mais de 30 redes. | catalogado |
+| [postsyncer-mcp](tools/postsyncer-mcp) | mcp | Plugin/MCP do PostSyncer para agendar posts em várias redes. | catalogado |
+| [publer-mcp](tools/publer-mcp) | mcp | Agenda e publica em 9 redes pelo Publer (inclui Bluesky e Mastodon). | catalogado |
+| [reddit-mcp-buddy](tools/reddit-mcp-buddy) | mcp | Navega posts, busca conteúdo e analisa usuários do Reddit sem chave de API. | catalogado |
+| [social-calendar-skill](tools/social-calendar-skill) | skill | Gera calendário mensal de redes sociais pesquisado e auditado, com análise de concorrentes, num só comando. | catalogado |
+| [social-guide](tools/social-guide) | guia | Comparativos de MCPs para redes sociais (agendamento, plataformas, escuta). | catalogado |
+| [social-listening-mcp](tools/social-listening-mcp) | mcp | MCP comunitário de escuta social. | catalogado |
+| [social-mcp-collections](tools/social-mcp-collections) | lista | Coleções de MCPs sociais: X, Bluesky, LinkedIn, Reddit, Discord e Hacker News. | catalogado |
+| [social-media-manager-borghei](tools/social-media-manager-borghei) | skill | Skill de gestor de redes sociais: estratégia, ganchos, calendário e reaproveitamento de conteúdo. | catalogado |
+| [telegram-mcp](tools/telegram-mcp) | mcp | Lê chats, gerencia grupos e envia ou edita mensagens e mídia no Telegram (Telethon). | catalogado |
+| [threads-carousel-skill](tools/threads-carousel-skill) | skill | Transforma um post de texto em imagens de carrossel para Threads, Instagram, LinkedIn e TikTok (PNG ou PDF). | catalogado |
+| [tiktok-for-business](tools/tiktok-for-business) | mcp | Conector oficial do TikTok for Business para criar, gerenciar e analisar campanhas de anúncios. | catalogado |
+| [trends-mcp](tools/trends-mcp) | mcp | Busca tendências do YouTube, TikTok e Reels do Instagram. | catalogado |
+| [upload-post-mcp](tools/upload-post-mcp) | mcp | Publica e agenda vídeos, fotos, carrosséis e textos em 11 redes e lê analytics e comentários. | catalogado |
+| [vidiq](tools/vidiq) | mcp | Pesquisa de palavras-chave, vídeos em alta, outliers e estatísticas de canais para YouTube, Instagram e TikTok. | catalogado |
+| [whatsapp-mcp](tools/whatsapp-mcp) | mcp | Liga sua conta pessoal do WhatsApp ao Claude: ler, buscar, enviar, transmitir e gerenciar grupos (22 ferramentas, local). | catalogado |
+| [x-mcp](tools/x-mcp) | mcp | Publica e agenda tweets com imagens, GIFs e vídeo pela API oficial do X, com skills de threads e calendário. | catalogado |
+| [youtube-mcp](tools/youtube-mcp) | mcp | Gestão de canal do YouTube com 21 ferramentas, incluindo analytics (views, watch time, inscritos, receita). | catalogado |

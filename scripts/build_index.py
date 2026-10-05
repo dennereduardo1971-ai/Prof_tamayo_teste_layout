@@ -10,6 +10,7 @@ SECOES = {  # tema: (título, recomendação "Comece por")
     'aprendizado': ('Aprendizado', 'key-learning ou study-skill + anki-mcp + youtube-transcript-mcp'),
     'midia': ('Imagem e vídeo', 'kinocut (vídeo) + mcp-image (imagem) + claude-remotion-skill'),
     'marketing': ('Marketing', 'marketingskills + ahrefs-mcp ou semrush-mcp + google-analytics-mcp'),
+    'social': ('Redes sociais', 'postiz ou buffer-mcp (agendar) + MCP da rede principal + social-calendar-skill + octolens (escuta)'),
 }
 
 rows = {k: [] for k in SECOES}

@@ -5,7 +5,7 @@ tema: marketing
 tipo: mcp
 tags: [marketing, mcp]
 status: catalogado
-alternativas: [metricool, socialclaw]
+alternativas: [bluesky-mcp, linkedin-mcp, metricool, socialclaw, x-mcp]
 combina-com: []
 ---
 

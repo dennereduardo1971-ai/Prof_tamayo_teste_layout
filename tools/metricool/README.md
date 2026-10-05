@@ -5,7 +5,7 @@ tema: marketing
 tipo: mcp
 tags: [marketing, mcp]
 status: catalogado
-alternativas: [socialclaw, typefully]
+alternativas: [buffer-mcp, postiz, socialclaw, typefully]
 combina-com: []
 ---
 

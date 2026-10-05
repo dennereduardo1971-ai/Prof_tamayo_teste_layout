@@ -6,7 +6,7 @@ tipo: mcp
 tags: [marketing, mcp]
 status: catalogado
 alternativas: [google-ads-mcp, meta-ads-mcp, ryze-ads-mcp]
-combina-com: []
+combina-com: [tiktok-for-business]
 ---
 
 # adspirer

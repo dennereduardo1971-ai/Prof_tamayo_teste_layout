@@ -13,7 +13,7 @@ Este repositório é a fonte principal para achar ferramentas (MCPs, skills, plu
 
 ## Vocabulário fixo
 
-- `tema`: pesquisa, tokens, design, jogos, godot, aprendizado, midia, marketing
+- `tema`: pesquisa, tokens, design, jogos, godot, aprendizado, midia, marketing, social
 - `tipo`: mcp, skill, plugin, editor, cli, lista, guia, outro
 - `status`: catalogado, testado
 
