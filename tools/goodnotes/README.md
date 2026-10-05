@@ -9,11 +9,11 @@ tags: [aprendizado, mcp]
 Gera documentos, diagramas Mermaid e imagens SVG no Goodnotes.
 
 - **Tipo:** mcp
-- **Fonte:** https://www.claudedirectory.org/mcp-servers/topic/knowledge-memory
+- **Fonte:** Registro de conectores do Claude (claude.ai)
 
 ## Uso
 
-Disponível no registro de conectores do Claude, sem login. Fonte não verificada.
+Disponível no registro de conectores do Claude, sem login.
 
 ## Status
 

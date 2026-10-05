@@ -9,7 +9,7 @@ tags: [aprendizado, mcp]
 Memória persistente para agentes (adicionar, buscar e atualizar memórias).
 
 - **Tipo:** mcp
-- **Fonte:** https://www.claudedirectory.org/mcp-servers/topic/knowledge-memory
+- **Fonte:** Registro de conectores do Claude (claude.ai)
 
 ## Uso
 

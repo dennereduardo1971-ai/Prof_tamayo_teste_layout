@@ -9,11 +9,11 @@ tags: [aprendizado, mcp]
 Companheiro de estudo: matérias, documentos, recursos gerados e flashcards.
 
 - **Tipo:** mcp
-- **Fonte:** https://www.claudedirectory.org/mcp-servers/topic/knowledge-memory
+- **Fonte:** Registro de conectores do Claude (claude.ai)
 
 ## Uso
 
-Disponível no registro de conectores do Claude (Kuliko AI). Fonte não verificada.
+Disponível no registro de conectores do Claude (Kuliko AI).
 
 ## Status
 
