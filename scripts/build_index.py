@@ -9,6 +9,7 @@ SECOES = {  # tema: (título, recomendação "Comece por")
     'godot': ('Godot', 'godot-ai-dlight ou gdai-mcp + godotprompter + godot-agent-skills-qblab'),
     'aprendizado': ('Aprendizado', 'key-learning ou study-skill + anki-mcp + youtube-transcript-mcp'),
     'midia': ('Imagem e vídeo', 'kinocut (vídeo) + mcp-image (imagem) + claude-remotion-skill'),
+    'marketing': ('Marketing', 'marketingskills + ahrefs-mcp ou semrush-mcp + google-analytics-mcp'),
 }
 
 rows = {k: [] for k in SECOES}

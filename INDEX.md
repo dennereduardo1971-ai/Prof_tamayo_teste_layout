@@ -3,7 +3,7 @@
 Busque aqui primeiro. Detalhes, `alternativas` e `combina-com` ficam no frontmatter de cada `tools/<nome>/README.md`.
 Gerado por `scripts/build_index.py`; não edite à mão.
 
-Seções: [Pesquisa](#pesquisa) · [Economia de tokens](#economia-de-tokens) · [Design](#design) · [Jogos](#jogos) · [Godot](#godot) · [Aprendizado](#aprendizado) · [Imagem e vídeo](#imagem-e-vídeo)
+Seções: [Pesquisa](#pesquisa) · [Economia de tokens](#economia-de-tokens) · [Design](#design) · [Jogos](#jogos) · [Godot](#godot) · [Aprendizado](#aprendizado) · [Imagem e vídeo](#imagem-e-vídeo) · [Marketing](#marketing)
 
 ## Pesquisa
 
@@ -177,3 +177,37 @@ Seções: [Pesquisa](#pesquisa) · [Economia de tokens](#economia-de-tokens) · 
 | [video-editing-skill](tools/video-editing-skill) | skill | Fluxo de edição de vídeo real: FFmpeg, Remotion, ElevenLabs, fal.ai e acabamento no Descript ou CapCut. | catalogado |
 | [video-toolkit-wilwaldon](tools/video-toolkit-wilwaldon) | lista | Coletânea de skills, MCPs e ferramentas de vídeo: Remotion, Manim, gravação de tela, YouTube e FFmpeg. | catalogado |
 | [wireflow](tools/wireflow) | mcp | MCP hospedado que roda pipelines completos de vídeo com IA. | catalogado |
+
+## Marketing
+
+**Comece por:** marketingskills + ahrefs-mcp ou semrush-mcp + google-analytics-mcp
+
+| Ferramenta | Tipo | Descrição | Status |
+|---|---|---|---|
+| [adobe-marketing-agent](tools/adobe-marketing-agent) | mcp | Insights de campanhas e públicos da Adobe (Experience Platform). | catalogado |
+| [adspirer](tools/adspirer) | mcp | Agente de mídia paga que planeja, lança e gerencia campanhas em Google, Meta, LinkedIn, TikTok e mais. | catalogado |
+| [adwhispr](tools/adwhispr) | mcp | Pesquisa anúncios ativos de marcas no Facebook e TikTok, acha concorrentes e lança campanhas. | catalogado |
+| [ahrefs-mcp](tools/ahrefs-mcp) | mcp | MCP oficial do Ahrefs: palavras-chave, ranking, backlinks, auditoria de site e visibilidade em buscas de IA. | catalogado |
+| [ai-marketing-claude](tools/ai-marketing-claude) | skill | 15 skills com subagentes: auditoria de site, copy, sequências de e-mail, anúncios, calendário e relatórios em PDF. | catalogado |
+| [boraoztunc-skills](tools/boraoztunc-skills) | skill | Skills de copywriting, SEO e design. | catalogado |
+| [claude-marketing-rebecca](tools/claude-marketing-rebecca) | skill | Pacotes de skills para Klaviyo, Shopify, GA4, Looker Studio e mídia paga. | catalogado |
+| [claude-skills-alirezarezvani](tools/claude-skills-alirezarezvani) | skill | Mais de 380 skills e plugins (engenharia, marketing, produto, compliance, negócios). | catalogado |
+| [google-ads-mcp](tools/google-ads-mcp) | mcp | MCP oficial do Google Ads, open source e somente leitura (3 ferramentas, consultas GAQL). | catalogado |
+| [google-analytics-mcp](tools/google-analytics-mcp) | mcp | MCP oficial do Google Analytics 4, somente leitura. | catalogado |
+| [hubspot-mcp](tools/hubspot-mcp) | mcp | MCP oficial do HubSpot: contatos, empresas, negócios, atribuição de campanhas e analytics de e-mail. | catalogado |
+| [klaviyo-mcp](tools/klaviyo-mcp) | mcp | Relatórios, estratégia e criação de campanhas com dados do Klaviyo em tempo real. | catalogado |
+| [mailchimp-mcp](tools/mailchimp-mcp) | mcp | Cria e edita campanhas de e-mail no Mailchimp (temas, textos, imagens). | catalogado |
+| [marketing-guide](tools/marketing-guide) | guia | Comparativos de MCPs para marketing (analytics, anúncios, SEO, social). | catalogado |
+| [marketingskills](tools/marketingskills) | skill | Skills de marketing: CRO, copywriting, SEO, analytics, testes A/B e growth. | catalogado |
+| [meta-ads-mcp](tools/meta-ads-mcp) | mcp | MCP oficial da Meta (beta gratuito) com leitura e escrita em campanhas de Facebook e Instagram. | catalogado |
+| [metricool](tools/metricool) | mcp | MCP oficial do Metricool: agenda posts, melhor horário por rede e análise de métricas sociais. | catalogado |
+| [motion-creative-analytics](tools/motion-creative-analytics) | mcp | Analisa criativos de anúncios da Meta e bibliotecas de anúncios de concorrentes. | catalogado |
+| [openclaudia-skills](tools/openclaudia-skills) | skill | 77 skills open source de marketing: SEO, conteúdo, e-mail, anúncios, analytics e growth. | catalogado |
+| [openrush](tools/openrush) | mcp | SEO e concorrência com dados ao vivo: palavras-chave, ranking, gap de backlinks, auditoria e citações em IA. | catalogado |
+| [openseo](tools/openseo) | mcp | SEO simplificado: projetos, rastreamento de ranking, concorrentes na SERP e auditoria. | catalogado |
+| [ryze-ads-mcp](tools/ryze-ads-mcp) | mcp | MCP hospedado com Google Ads, Meta Ads, GA4 e Search Console (mais de 250 ferramentas), login OAuth e escrita com aprovação. | catalogado |
+| [segmentstream](tools/segmentstream) | mcp | Analytics de marketing com atribuição entre canais a partir do data warehouse. | catalogado |
+| [semrush-mcp](tools/semrush-mcp) | mcp | MCP do Semrush: palavras-chave, concorrentes, tráfego, backlinks, domínios e PPC. | catalogado |
+| [socialclaw](tools/socialclaw) | mcp | MCP hospedado de publicação em redes sociais com 17 ferramentas e contas via OAuth. | catalogado |
+| [supermetrics](tools/supermetrics) | mcp | Dados de mais de 200 fontes de marketing (Google Ads, Meta, GA, TikTok, LinkedIn, YouTube) num só conector. | catalogado |
+| [typefully](tools/typefully) | mcp | Agenda e escreve posts para X, LinkedIn, Substack, Threads, Bluesky e Mastodon. | catalogado |
