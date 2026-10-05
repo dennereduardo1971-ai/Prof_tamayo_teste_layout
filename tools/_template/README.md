@@ -1,7 +1,7 @@
 ---
 name: nome-da-ferramenta
 description: "Uma linha dizendo o que faz e quando usar."
-tema: pesquisa | tokens | design | jogos | godot | aprendizado
+tema: pesquisa | tokens | design | jogos | godot | aprendizado | midia
 tipo: mcp | skill | plugin | editor | cli | lista | guia | outro
 tags: [tema, tipo]
 status: catalogado | testado

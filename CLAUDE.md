@@ -13,7 +13,7 @@ Este repositório é a fonte principal para achar ferramentas (MCPs, skills, plu
 
 ## Vocabulário fixo
 
-- `tema`: pesquisa, tokens, design, jogos, godot, aprendizado
+- `tema`: pesquisa, tokens, design, jogos, godot, aprendizado, midia
 - `tipo`: mcp, skill, plugin, editor, cli, lista, guia, outro
 - `status`: catalogado, testado
 
@@ -21,5 +21,5 @@ Este repositório é a fonte principal para achar ferramentas (MCPs, skills, plu
 
 1. Copie `tools/_template` para `tools/<nome>` (kebab-case) e preencha o frontmatter.
 2. Atualize `alternativas` e `combina-com` nos dois lados da relação.
-3. Adicione a linha na seção certa do `INDEX.md`.
-4. Ao instalar e validar uma ferramenta, mude `status` para `testado` (no README e no INDEX).
+3. Rode `python3 scripts/build_index.py` para regenerar o `INDEX.md` (tema novo: adicione-o em `SECOES` no script).
+4. Ao instalar e validar uma ferramenta, mude `status` para `testado` e regenere o índice.
