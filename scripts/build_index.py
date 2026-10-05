@@ -17,7 +17,8 @@ for t in sorted(os.listdir('tools')):
         continue
     fm = re.match(r'---\n(.*?)\n---', open(f'tools/{t}/README.md').read(), re.S).group(1)
     d = dict(re.match(r'([\w-]+): (.*)', l).groups() for l in fm.splitlines())
-    rows[d['tema']].append(f"| [{t}](tools/{t}) | {d['tipo']} | {d['description'].strip('\"')} | {d['status']} |")
+    desc = d['description'].strip('"')
+    rows[d['tema']].append(f"| [{t}](tools/{t}) | {d['tipo']} | {desc} | {d['status']} |")
 
 out = ['# Índice de ferramentas', '',
        'Busque aqui primeiro. Detalhes, `alternativas` e `combina-com` ficam no frontmatter de cada `tools/<nome>/README.md`.',

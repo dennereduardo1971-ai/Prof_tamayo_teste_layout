@@ -1,8 +1,9 @@
 # Índice de ferramentas
 
 Busque aqui primeiro. Detalhes, `alternativas` e `combina-com` ficam no frontmatter de cada `tools/<nome>/README.md`.
+Gerado por `scripts/build_index.py`; não edite à mão.
 
-Seções: [Pesquisa](#pesquisa) · [Economia de tokens](#economia-de-tokens) · [Design](#design) · [Jogos](#jogos) · [Godot](#godot) · [Aprendizado](#aprendizado)
+Seções: [Pesquisa](#pesquisa) · [Economia de tokens](#economia-de-tokens) · [Design](#design) · [Jogos](#jogos) · [Godot](#godot) · [Aprendizado](#aprendizado) · [Imagem e vídeo](#imagem-e-vídeo)
 
 ## Pesquisa
 
@@ -141,3 +142,38 @@ Seções: [Pesquisa](#pesquisa) · [Economia de tokens](#economia-de-tokens) · 
 | [wolfram-alpha-mcp](tools/wolfram-alpha-mcp) | mcp | Cálculos, equações, conversões e dados factuais via Wolfram Alpha. | catalogado |
 | [youtube-transcript-mcp](tools/youtube-transcript-mcp) | mcp | Lê transcrições do YouTube sem chave de API. | catalogado |
 | [zotero-mcp](tools/zotero-mcp) | mcp | Conecta a biblioteca Zotero: busca em PDFs, resumos, citações e anotações. | catalogado |
+
+## Imagem e vídeo
+
+**Comece por:** kinocut (vídeo) + mcp-image (imagem) + claude-remotion-skill
+
+| Ferramenta | Tipo | Descrição | Status |
+|---|---|---|---|
+| [awesome-claude-video-skills](tools/awesome-claude-video-skills) | lista | Lista com 180 repositórios de vídeo para agentes, classificados por tipo e segurança. | catalogado |
+| [claude-code-video-toolkit](tools/claude-code-video-toolkit) | skill | Kit de produção de vídeo: Remotion, ElevenLabs, FFmpeg, gravação com Playwright e edição de imagem. | catalogado |
+| [claude-remotion-skill](tools/claude-remotion-skill) | skill | Skill para criar e editar vídeos de motion graphics com Remotion: legendas sincronizadas, cor e som. | catalogado |
+| [cloudinary-mcp](tools/cloudinary-mcp) | mcp | Gerencia, transforma e entrega imagens e vídeos. | catalogado |
+| [creatomate](tools/creatomate) | mcp | Renderização de vídeo a partir de templates via MCP. | catalogado |
+| [davinci-resolve-mcp](tools/davinci-resolve-mcp) | mcp | Controle do DaVinci Resolve: edição, cor, áudio e render. Resolve 21.1 tem MCP nativo. | catalogado |
+| [editassist](tools/editassist) | mcp | MCP que busca clipes, lê transcrições, monta rough cuts e controla o editor de vídeo localmente. | catalogado |
+| [elevenlabs-mcp](tools/elevenlabs-mcp) | mcp | Conector ElevenLabs no registro do Claude (foco em agentes de voz). | catalogado |
+| [fal-ai-mcp](tools/fal-ai-mcp) | mcp | MCP hospedado com acesso a mais de 1000 modelos generativos de imagem, vídeo e áudio. | catalogado |
+| [ffmpeg-mcp-server](tools/ffmpeg-mcp-server) | mcp | MCP com FFmpeg para velocidade, keyframes, concatenação e extração de destaques. | catalogado |
+| [gimp-mcp](tools/gimp-mcp) | mcp | Controle do GIMP pelo Claude para edição de imagem. | catalogado |
+| [image-generation-mcp](tools/image-generation-mcp) | mcp | Uma interface para DALL-E, modelos de imagem do Gemini e Stable Diffusion local. | catalogado |
+| [imagineart-mcp](tools/imagineart-mcp) | mcp | Gera imagem, vídeo e música, remove fundo e faz upscale 4x num só endpoint. | catalogado |
+| [jumper](tools/jumper) | mcp | MCP para tarefas repetitivas em Premiere Pro, DaVinci Resolve, Final Cut Pro e Avid. | catalogado |
+| [kinocut](tools/kinocut) | mcp | MCP local e gratuito de edição de vídeo com FFmpeg: cortar, legendar, reaproveitar e checar qualidade. | catalogado |
+| [krita-mcp](tools/krita-mcp) | mcp | Controle do Krita: camadas, desenho, filtros, exportação, e lê o canvas como PNG para ver o resultado. | catalogado |
+| [mcp-image](tools/mcp-image) | mcp | Gera e edita imagens com otimização automática de prompt (Gemini, GPT Image, Seedream). | catalogado |
+| [midia-guide](tools/midia-guide) | guia | Comparativos de MCPs de imagem e vídeo para o Claude. | catalogado |
+| [orshot](tools/orshot) | mcp | Automatiza vídeos, PDFs e imagens a partir de templates e publica em redes sociais. | catalogado |
+| [photoshop-mcp](tools/photoshop-mcp) | mcp | Controle do Adobe Photoshop: camadas, filtros, IA generativa e receitas. | catalogado |
+| [reap](tools/reap) | mcp | Cortes, legendas e dublagem de vídeos para redes sociais via MCP. | catalogado |
+| [recraft-mcp](tools/recraft-mcp) | mcp | MCP do Recraft para gerar imagens e vetores. | catalogado |
+| [shotstack](tools/shotstack) | mcp | API de edição de vídeo na nuvem com MCP nativo. | catalogado |
+| [unsplash-mcp](tools/unsplash-mcp) | mcp | Busca e usa imagens HD gratuitas do Unsplash. | catalogado |
+| [video-audio-mcp](tools/video-audio-mcp) | mcp | MCP com FFmpeg para vídeo e áudio: conversão, cortes, sobreposições, transições e áudio. | catalogado |
+| [video-editing-skill](tools/video-editing-skill) | skill | Fluxo de edição de vídeo real: FFmpeg, Remotion, ElevenLabs, fal.ai e acabamento no Descript ou CapCut. | catalogado |
+| [video-toolkit-wilwaldon](tools/video-toolkit-wilwaldon) | lista | Coletânea de skills, MCPs e ferramentas de vídeo: Remotion, Manim, gravação de tela, YouTube e FFmpeg. | catalogado |
+| [wireflow](tools/wireflow) | mcp | MCP hospedado que roda pipelines completos de vídeo com IA. | catalogado |
