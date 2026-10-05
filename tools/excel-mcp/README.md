@@ -18,7 +18,7 @@ Lê, escreve e analisa a estrutura de arquivos Excel.
 
 ## Uso
 
-Skill oficial alternativa: anthropic-document-skills (xlsx).
+Path traversal (CVE-2026-40576, CVE-2026-85661): use a versão mais nova, só em stdio e com `EXCEL_FILES_PATH` definido. Skill oficial alternativa: anthropic-document-skills (xlsx). Ver RESULTADOS_SEGURANCA.md.
 
 ## Status
 

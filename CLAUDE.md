@@ -26,4 +26,4 @@ Este repositório é a fonte principal para achar ferramentas (MCPs, skills, plu
 
 ## Segurança
 
-`SEGURANCA.md` lista os MCPs por prioridade de revisão. Regenere com `python3 scripts/security_inventory.py` ao adicionar MCPs.
+`SEGURANCA.md` lista os MCPs por prioridade de revisão; os achados ficam em `RESULTADOS_SEGURANCA.md`. Regenere com `python3 scripts/security_inventory.py` ao adicionar MCPs.

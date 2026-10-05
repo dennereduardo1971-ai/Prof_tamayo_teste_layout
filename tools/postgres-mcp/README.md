@@ -18,7 +18,7 @@ Escreve e executa SQL em qualquer Postgres (Supabase, Neon, Railway) a partir de
 
 ## Uso
 
-Servidor de referência; prefira usuário só-leitura.
+Não use o servidor de referência (`@modelcontextprotocol/server-postgres`): SQL injection sem correção. Use `@zeddotdev/postgres-context-server` ≥ 0.1.4 com usuário só-leitura. Ver RESULTADOS_SEGURANCA.md.
 
 ## Status
 
