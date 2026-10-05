@@ -39,6 +39,44 @@ Rodada 1 (2026-10-05): os 22 MCPs de prioridade alta de `SEGURANCA.md`, mais o g
 
 - **[strayspark-godot-mcp](tools/strayspark-godot-mcp)**, **[segmentstream](tools/segmentstream)**: pagos, sem repositório nem advisories. Só usar se forem necessários, e com dados de teste primeiro.
 
+## Rodada 2: tema Godot (2026-10-05)
+
+26 ferramentas. Código lido em 17 repositórios públicos, com busca por execução de comandos, portas abertas na rede, autenticação, chamadas externas, hooks e instruções escondidas (incluindo unicode invisível). Nenhuma instrução maliciosa ou caractere oculto foi encontrado. Nada foi instalado nem testado em execução.
+
+### 🔴 Corrigir antes de usar
+
+| Ferramenta | Problema | O que fazer |
+|---|---|---|
+| [claude-godot-mcp](tools/claude-godot-mcp) | O plugin abre um servidor HTTP em `127.0.0.1:3571` **sem autenticação** e com `Access-Control-Allow-Origin: *`. Qualquer site aberto no navegador pode chamar a API, inclusive `/api/file/write_text`, que grava arquivos em `res://`. Um script `@tool` gravado assim roda no editor. (Análise de código; não testado em execução.) | Não usar enquanto não tiver token e CORS restrito. Prefira godot-ai-dlight ou godot-mcp-satelliteoflove. |
+| [godot-claude-skills](tools/godot-claude-skills) | O addon de testes PlayGodot (`example-project/addons/playgodot/server.gd`) chama `TCPServer.listen(porta)` sem endereço. No Godot, o padrão é escutar em **todas as interfaces**, então qualquer pessoa na mesma rede (Wi-Fi da escola, por exemplo) pode controlar o jogo e chamar métodos. Os scripts de CI usam `--dangerously-skip-permissions`. | Se usar o PlayGodot, trocar para `listen(porta, "127.0.0.1")`. Não copiar o modo sem permissões para uso local. |
+
+### 🟡 Atenção
+
+| Ferramenta | Ponto |
+|---|---|
+| [godot-mcp-coding-solo](tools/godot-mcp-coding-solo) | A CVE-2026-25546 está corrigida no código atual (`execFile` com lista de argumentos). Use a versão ≥ 0.1.1. |
+| [godot-mcp-pro](tools/godot-mcp-pro) | Pago; o servidor MCP não está no repositório (só o addon). Traz `settings.local.permissive.json` com `Bash(*)` liberado e só uma lista de bloqueios. **Não use esse arquivo**; use o `settings.local.json` padrão. |
+| [godot-mcp-mkdevkit](tools/godot-mcp-mkdevkit) | Escuta só em `127.0.0.1`, mas não tem autenticação. Tem `execute_editor_script` (executa expressões no editor) e `OS.execute` para adb (Android). Aprovar manualmente essas ferramentas. |
+| [godot-mcp-satelliteoflove](tools/godot-mcp-satelliteoflove) | Bem feito: escuta em localhost por padrão e valida o endereço. A ferramenta `exec` roda GDScript no jogo, protegida só por uma lista de funções proibidas (`OS.execute` etc.), o que pode ser contornado. |
+| [godot-ai-dlight](tools/godot-ai-dlight) | O mais seguro dos MCPs: autenticação nas duas conexões locais, apenas loopback, rede externa só com `--allow-host`. Tem `game_eval` (executa código no jogo) e telemetria anônima (`GODOT_AI_DISABLE_TELEMETRY=true` desliga). |
+| [godot-mcp](tools/godot-mcp) | `tomyud1`: escuta em `127.0.0.1`; `execSync` só recebe o número da porta (ok). |
+| [gdai-mcp](tools/gdai-mcp) | **Código fechado**: o repositório só tem a documentação e um projeto de exemplo. Pela documentação, escuta só em 127.0.0.1. Não dá para auditar. |
+| [ai-assistant-hub](tools/ai-assistant-hub) | Envia estatísticas de uso (versão, versão do Godot, APIs usadas) para `abacus.jasoncameron.dev` sem opção de desligar. Monta GDScript concatenando o nome de classe vindo da IA (`"static func eval(): return " + classe`), o que é uma injeção de código possível. |
+| [claude-godot-tools](tools/claude-godot-tools) | O hook `PreToolUse` baixa binários do GitHub Releases **sem conferir checksum**. A origem é confiável (GDQuest e o próprio autor), mas não há verificação de integridade. |
+| [godotprompter](tools/godotprompter), [godot-agent-skills-qblab](tools/godot-agent-skills-qblab) | Instalam hooks (`SessionStart`, `PreToolUse`). Revisei: só leem arquivos locais e bloqueiam edições estruturais em `.tscn`. Ok. |
+
+### 🟢 Sem problema encontrado
+
+[godot-forge](tools/godot-forge) (`spawn` sem shell, só stdio, uma dependência) · skills só de texto: [gd-agentic-skills](tools/gd-agentic-skills), [godot-claude-skills-alexmeckes](tools/godot-claude-skills-alexmeckes), [godot-skill-shihab](tools/godot-skill-shihab), [godot-skills-vl4dt](tools/godot-skills-vl4dt) (o bridge MCP incluído conecta em localhost).
+
+### ⚪ Não auditáveis (sem código público ou comerciais)
+
+[strayspark-godot-mcp](tools/strayspark-godot-mcp), [ziva](tools/ziva), [summer-engine](tools/summer-engine), [godot-ai-assistant-groq](tools/godot-ai-assistant-groq), [golem-ai](tools/golem-ai), [fuku](tools/fuku), [flatten-for-llm](tools/flatten-for-llm). [godot-ai-guide](tools/godot-ai-guide) é só um guia.
+
+### Recomendação
+
+Para usar em aula ou em casa: **godot-ai-dlight** (mais seguro) ou **godot-mcp-satelliteoflove**, com as skills **godotprompter** ou **godot-agent-skills-qblab**. Evitar o claude-godot-mcp.
+
 ## Próxima rodada
 
 1. Instalar `snyk-agent-scan` e rodar nos MCPs que forem de fato instalados (procura instruções maliciosas nas descrições das ferramentas).
