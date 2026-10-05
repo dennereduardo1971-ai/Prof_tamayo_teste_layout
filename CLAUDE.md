@@ -23,3 +23,7 @@ Este repositório é a fonte principal para achar ferramentas (MCPs, skills, plu
 2. Atualize `alternativas` e `combina-com` nos dois lados da relação.
 3. Rode `python3 scripts/build_index.py` para regenerar o `INDEX.md` (tema novo: adicione-o em `SECOES` no script).
 4. Ao instalar e validar uma ferramenta, mude `status` para `testado` e regenere o índice.
+
+## Segurança
+
+`SEGURANCA.md` lista os MCPs por prioridade de revisão. Regenere com `python3 scripts/security_inventory.py` ao adicionar MCPs.
