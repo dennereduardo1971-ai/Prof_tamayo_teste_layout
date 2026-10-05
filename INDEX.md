@@ -76,3 +76,25 @@
 | [ziva](tools/ziva) | Agente de IA dentro do editor Godot 4.2+: árvore de cenas, sinais, GDScript/C#, sprites e TileMaps. | jogos, godot, editor |
 | [summer-engine](tools/summer-engine) | Editor AI-native compatível com projetos .godot, com chat e acesso ao jogo rodando. | jogos, godot, editor |
 | [godot-ai-guide](tools/godot-ai-guide) | Comparativos de ferramentas de IA para Godot (MCPs, plugins e assistentes). | jogos, godot, guia |
+| [study-skill](tools/study-skill) | Tutor interativo com repetição espaçada FSRS-6, agentes de pesquisa, catálogo de livros e sessões adaptadas a TDAH. | aprendizado, skill |
+| [maxlearn](tools/maxlearn) | Mod do Claude Code que transforma tópicos das suas conversas em aulas curtas e flashcards com FSRS. | aprendizado, plugin |
+| [key-learning](tools/key-learning) | Tutor para qualquer área: explica por primeiros princípios, diagnostica nível de Bloom, cria plano e agenda revisões em markdown. | aprendizado, skill |
+| [agent-tutor-skill](tools/agent-tutor-skill) | Tutor baseado em ciência cognitiva: ciclo de ensino, FSRS, quizzes sem dica e domínio por conceito. | aprendizado, skill |
+| [study-skills-jacquard](tools/study-skills-jacquard) | 8 skills combináveis: flashcards, quizzes, checagem de conceitos, leitor de papers e mais. | aprendizado, skill |
+| [claude-tutor-kirilxd](tools/claude-tutor-kirilxd) | Tutor com planos personalizados, quizzes adaptativos, repetição SM-2 e painel web. | aprendizado, plugin |
+| [claude-tutor-kubilaiswf](tools/claude-tutor-kubilaiswf) | Tutor com syllabus, lições liberadas por domínio, provas e revisão espaçada; regras citadas da pesquisa. | aprendizado, plugin |
+| [adhd-study-coach](tools/adhd-study-coach) | Agente de estudo para TDAH: blocos pequenos, repetição espaçada e reflexão Feynman. | aprendizado, skill |
+| [learn-mode](tools/learn-mode) | Comando /learn que explica os conceitos do que o Claude acabou de fazer e salva notas. | aprendizado, skill |
+| [learning-output-style](tools/learning-output-style) | Plugin oficial da Anthropic que faz o Claude pedir sua contribuição em pontos de decisão. | aprendizado, plugin |
+| [codebase-to-course](tools/codebase-to-course) | Transforma um código em curso HTML interativo com quizzes e tradução para linguagem simples. | aprendizado, skill |
+| [anki-mcp](tools/anki-mcp) | MCPs que criam, buscam e revisam flashcards no Anki via AnkiConnect. | aprendizado, mcp |
+| [zotero-mcp](tools/zotero-mcp) | Conecta a biblioteca Zotero: busca em PDFs, resumos, citações e anotações. | aprendizado, mcp |
+| [youtube-transcript-mcp](tools/youtube-transcript-mcp) | Lê transcrições do YouTube sem chave de API. | aprendizado, mcp |
+| [obsidian-mcp](tools/obsidian-mcp) | MCPs para ler, buscar e editar notas de um cofre Obsidian. | aprendizado, mcp |
+| [wikipedia-mcp](tools/wikipedia-mcp) | Busca artigos, resumos, referências e categorias da Wikipédia. | aprendizado, mcp |
+| [wolfram-alpha-mcp](tools/wolfram-alpha-mcp) | Cálculos, equações, conversões e dados factuais via Wolfram Alpha. | aprendizado, mcp |
+| [memory-knowledge-graph](tools/memory-knowledge-graph) | Memória oficial de referência do MCP: entidades, relações e observações em JSON local. | aprendizado, mcp |
+| [mem0](tools/mem0) | Memória persistente para agentes (adicionar, buscar e atualizar memórias). | aprendizado, mcp |
+| [kuliko-ai](tools/kuliko-ai) | Companheiro de estudo: matérias, documentos, recursos gerados e flashcards. | aprendizado, mcp |
+| [learning-commons](tools/learning-commons) | Padrões, habilidades e progressões de aprendizagem do ensino básico (K-12, EUA). | aprendizado, mcp |
+| [goodnotes](tools/goodnotes) | Gera documentos, diagramas Mermaid e imagens SVG no Goodnotes. | aprendizado, mcp |
