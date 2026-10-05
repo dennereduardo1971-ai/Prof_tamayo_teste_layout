@@ -52,3 +52,27 @@
 | [awesome-gamedev-agent-skills](tools/awesome-gamedev-agent-skills) | 74 skills de gamedev (Godot, Unity, Unreal, Phaser, three.js, Bevy, Roblox) com roteador por engine. | jogos, skill |
 | [godogen](tools/godogen) | Desenvolvimento autônomo de jogos para Godot, Bevy e Babylon.js. | jogos, skill |
 | [godot-claude-skills](tools/godot-claude-skills) | Skills do Claude para a engine Godot. | jogos, skill |
+| [godot-mcp-coding-solo](tools/godot-mcp-coding-solo) | MCP MIT sem plugin: abre o editor, roda o projeto em debug e captura a saída via linha de comando. | jogos, godot, mcp |
+| [gdai-mcp](tools/gdai-mcp) | MCP apontado como o mais polido para Godot: cenas, recursos, scripts, erros e logs do editor. | jogos, godot, mcp |
+| [godot-ai-dlight](tools/godot-ai-dlight) | Plugin MIT que conecta Claude Code a um editor Godot ao vivo via MCP (Godot 4.5+). | jogos, godot, mcp |
+| [godot-mcp-pro](tools/godot-mcp-pro) | 162 ferramentas MCP: cena, animação, 3D, física, partículas, áudio, shader, simulação de input, testes. | jogos, godot, mcp |
+| [claude-godot-mcp](tools/claude-godot-mcp) | MCP com cerca de 170 ferramentas: nós, scripts, sinais, grupos, autoloads e shaders. | jogos, godot, mcp |
+| [godot-forge](tools/godot-forge) | MCP com suporte preciso a GDScript, análise de projeto, docs e testes GUT/GdUnit4 headless. | jogos, godot, mcp |
+| [godot-mcp-satelliteoflove](tools/godot-mcp-satelliteoflove) | MCP com 77 ferramentas em 15 categorias, incluindo testes headless e debug com breakpoints. | jogos, godot, mcp |
+| [godot-mcp-mkdevkit](tools/godot-mcp-mkdevkit) | MCP open source para controlar o editor Godot 4 diretamente. | jogos, godot, mcp |
+| [strayspark-godot-mcp](tools/strayspark-godot-mcp) | MCP comercial focado em edição de cenas e scripts do Godot 4.x, com ferramentas curadas. | jogos, godot, mcp |
+| [godotprompter](tools/godotprompter) | 56 skills para Godot 4.x (GDScript e C#): arquitetura, física, shaders, UI, multiplayer, otimização. | jogos, godot, skill |
+| [gd-agentic-skills](tools/gd-agentic-skills) | 99 skills e 27 blueprints de gênero com GDScript tipado para Godot 4.7+. | jogos, godot, skill |
+| [godot-skills-vl4dt](tools/godot-skills-vl4dt) | 12 skills (GDScript, C#, física, animação, UI, rede, debug) cobrindo Godot 4.7. | jogos, godot, skill |
+| [godot-agent-skills-qblab](tools/godot-agent-skills-qblab) | Edição segura de .tscn/.tres sem quebrar UIDs, guardas contra API do Godot 3 e hooks de verificação. | jogos, godot, skill |
+| [godot-skill-shihab](tools/godot-skill-shihab) | Skill para GDScript 2.0 com tipagem estática estrita e guia de estilo oficial (Godot 4.3+). | jogos, godot, skill |
+| [godot-claude-skills-alexmeckes](tools/godot-claude-skills-alexmeckes) | Coleção de skills do Claude para Godot. | jogos, godot, skill |
+| [claude-godot-tools](tools/claude-godot-tools) | Plugins Claude Code: servidor de linguagem GDScript (LSP) e integração com gdUnit4. | jogos, godot, plugin |
+| [ai-assistant-hub](tools/ai-assistant-hub) | Plugin open source (MIT) para usar LLMs dentro do editor (Ollama, Gemini, OpenRouter). | jogos, godot, editor |
+| [golem-ai](tools/golem-ai) | Assistente no dock do editor com modelos locais ou na nuvem, incluindo Anthropic. | jogos, godot, editor |
+| [fuku](tools/fuku) | Plugin que integra vários provedores de IA ao editor Godot. | jogos, godot, editor |
+| [godot-ai-assistant-groq](tools/godot-ai-assistant-groq) | Assistente de GDScript, cenas e chat usando a API gratuita do Groq (LLaMA). | jogos, godot, editor |
+| [flatten-for-llm](tools/flatten-for-llm) | Achata o projeto Godot em texto para colar num LLM. | jogos, godot, editor |
+| [ziva](tools/ziva) | Agente de IA dentro do editor Godot 4.2+: árvore de cenas, sinais, GDScript/C#, sprites e TileMaps. | jogos, godot, editor |
+| [summer-engine](tools/summer-engine) | Editor AI-native compatível com projetos .godot, com chat e acesso ao jogo rodando. | jogos, godot, editor |
+| [godot-ai-guide](tools/godot-ai-guide) | Comparativos de ferramentas de IA para Godot (MCPs, plugins e assistentes). | jogos, godot, guia |
