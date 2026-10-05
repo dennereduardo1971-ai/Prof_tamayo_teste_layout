@@ -1,7 +1,12 @@
 ---
 name: learning-output-style
-description: Plugin oficial da Anthropic que faz o Claude pedir sua contribuição em pontos de decisão.
+description: "Plugin oficial da Anthropic que faz o Claude pedir sua contribuição em pontos de decisão."
+tema: aprendizado
+tipo: plugin
 tags: [aprendizado, plugin]
+status: catalogado
+alternativas: [codebase-to-course, learn-mode]
+combina-com: []
 ---
 
 # learning-output-style

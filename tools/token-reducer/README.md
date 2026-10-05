@@ -1,7 +1,12 @@
 ---
 name: token-reducer
-description: Compressão de contexto local e gratuita com RAG híbrido (BM25 + ONNX), chunking por AST e reranking.
-tags: [economia-de-token, mcp]
+description: "Compressão de contexto local e gratuita com RAG híbrido (BM25 + ONNX), chunking por AST e reranking."
+tema: tokens
+tipo: mcp
+tags: [mcp, tokens]
+status: catalogado
+alternativas: [bifrost-code-mode, context-mode, semantic-cache-mcp]
+combina-com: []
 ---
 
 # token-reducer

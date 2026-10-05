@@ -1,7 +1,12 @@
 ---
 name: gamelabs-mcp
-description: Gera sprites com fundo transparente, animações e sprite sheets prontas para engine.
+description: "Gera sprites com fundo transparente, animações e sprite sheets prontas para engine."
+tema: jogos
+tipo: mcp
 tags: [jogos, mcp]
+status: catalogado
+alternativas: [ludo-mcp, spritecook-mcp]
+combina-com: []
 ---
 
 # gamelabs-mcp

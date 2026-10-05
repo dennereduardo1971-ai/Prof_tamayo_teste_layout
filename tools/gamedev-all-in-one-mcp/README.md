@@ -1,7 +1,12 @@
 ---
 name: gamedev-all-in-one-mcp
-description: MCP multi-engine de desenvolvimento de jogos.
+description: "MCP multi-engine de desenvolvimento de jogos."
+tema: jogos
+tipo: mcp
 tags: [jogos, mcp]
+status: catalogado
+alternativas: []
+combina-com: []
 ---
 
 # gamedev-all-in-one-mcp

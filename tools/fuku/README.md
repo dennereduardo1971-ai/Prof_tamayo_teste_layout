@@ -1,7 +1,12 @@
 ---
 name: fuku
-description: Plugin que integra vários provedores de IA ao editor Godot.
-tags: [jogos, godot, editor]
+description: "Plugin que integra vários provedores de IA ao editor Godot."
+tema: godot
+tipo: editor
+tags: [editor, godot, jogos]
+status: catalogado
+alternativas: [ai-assistant-hub, godot-ai-assistant-groq, golem-ai, summer-engine, ziva]
+combina-com: []
 ---
 
 # fuku

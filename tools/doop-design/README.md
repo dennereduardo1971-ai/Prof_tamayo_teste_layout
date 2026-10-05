@@ -1,7 +1,12 @@
 ---
 name: doop-design
-description: Comparativo de MCPs de design para Claude Code (Doop, Figma Dev Mode, Paper, Pencil, Magic).
+description: "Comparativo de MCPs de design para Claude Code (Doop, Figma Dev Mode, Paper, Pencil, Magic)."
+tema: design
+tipo: mcp
 tags: [design, mcp]
+status: catalogado
+alternativas: []
+combina-com: []
 ---
 
 # doop-design

@@ -1,7 +1,12 @@
 ---
 name: awesome-claude-design
-description: DESIGN.md por família estética, receitas e kits anti-slop.
+description: "DESIGN.md por família estética, receitas e kits anti-slop."
+tema: design
+tipo: lista
 tags: [design, lista]
+status: catalogado
+alternativas: [frontend-design-toolkit]
+combina-com: []
 ---
 
 # awesome-claude-design

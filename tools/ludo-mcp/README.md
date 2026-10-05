@@ -1,7 +1,12 @@
 ---
 name: ludo-mcp
-description: Gera sprites, spritesheets, modelos 3D, animações, efeitos sonoros, música e voz.
+description: "Gera sprites, spritesheets, modelos 3D, animações, efeitos sonoros, música e voz."
+tema: jogos
+tipo: mcp
 tags: [jogos, mcp]
+status: catalogado
+alternativas: [gamelabs-mcp, spritecook-mcp]
+combina-com: [gdai-mcp, godot-ai-dlight, mcp-unity, phaser-game-agent-mcp]
 ---
 
 # ludo-mcp

@@ -1,7 +1,12 @@
 ---
 name: exa-search
-description: MCP de busca semântica para agentes; bom para docs técnicas e papers.
-tags: [pesquisa, mcp]
+description: "MCP de busca semântica para agentes; bom para docs técnicas e papers."
+tema: pesquisa
+tipo: mcp
+tags: [mcp, pesquisa]
+status: catalogado
+alternativas: [brave-search, parallel-search, perplexity-mcp, tavily-search]
+combina-com: []
 ---
 
 # exa-search

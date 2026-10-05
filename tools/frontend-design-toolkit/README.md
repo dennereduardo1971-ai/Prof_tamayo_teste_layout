@@ -1,7 +1,12 @@
 ---
 name: frontend-design-toolkit
-description: Coletânea de skills, plugins, MCPs e truques de CLAUDE.md para frontends melhores.
+description: "Coletânea de skills, plugins, MCPs e truques de CLAUDE.md para frontends melhores."
+tema: design
+tipo: lista
 tags: [design, lista]
+status: catalogado
+alternativas: [awesome-claude-design]
+combina-com: []
 ---
 
 # frontend-design-toolkit

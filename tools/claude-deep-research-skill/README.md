@@ -1,7 +1,12 @@
 ---
 name: claude-deep-research-skill
-description: Skill de deep research com pipeline de 8 fases, credibilidade de fontes e relatório com citações.
+description: "Skill de deep research com pipeline de 8 fases, credibilidade de fontes e relatório com citações."
+tema: pesquisa
+tipo: skill
 tags: [pesquisa, skill]
+status: catalogado
+alternativas: [agent-research-skills, deep-research-skills-hitl]
+combina-com: [context7, github-deep-research, parallel-search, zotero-mcp]
 ---
 
 # claude-deep-research-skill

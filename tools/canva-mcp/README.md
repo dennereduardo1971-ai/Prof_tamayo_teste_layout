@@ -1,7 +1,12 @@
 ---
 name: canva-mcp
-description: Conector do Canva para buscar, criar, preencher e exportar designs.
+description: "Conector do Canva para buscar, criar, preencher e exportar designs."
+tema: design
+tipo: mcp
 tags: [design, mcp]
+status: catalogado
+alternativas: [adobe-mcp, moda-mcp]
+combina-com: []
 ---
 
 # canva-mcp

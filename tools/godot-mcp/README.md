@@ -1,7 +1,12 @@
 ---
 name: godot-mcp
-description: MCPs para o editor Godot: cenas, nós, scripts, erros e logs.
-tags: [jogos, mcp]
+description: "MCPs para o editor Godot: cenas, nós, scripts, erros e logs."
+tema: godot
+tipo: mcp
+tags: [godot, jogos, mcp]
+status: catalogado
+alternativas: [claude-godot-mcp, gdai-mcp, godot-ai-dlight, godot-forge, godot-mcp-coding-solo, godot-mcp-mkdevkit, godot-mcp-pro, godot-mcp-satelliteoflove, strayspark-godot-mcp]
+combina-com: [blender-mcp]
 ---
 
 # godot-mcp

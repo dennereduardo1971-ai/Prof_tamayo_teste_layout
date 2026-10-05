@@ -1,7 +1,12 @@
 ---
 name: parallel-search
-description: MCP gratuito e sem login com web_search e web_fetch (Parallel).
-tags: [pesquisa, mcp]
+description: "MCP gratuito e sem login com web_search e web_fetch (Parallel)."
+tema: pesquisa
+tipo: mcp
+tags: [mcp, pesquisa]
+status: catalogado
+alternativas: [brave-search, exa-search, perplexity-mcp, tavily-search]
+combina-com: [claude-deep-research-skill]
 ---
 
 # parallel-search

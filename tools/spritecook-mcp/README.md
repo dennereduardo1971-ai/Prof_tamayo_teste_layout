@@ -1,7 +1,12 @@
 ---
 name: spritecook-mcp
-description: Gera sprites, animações, tilesets e arte de jogo.
+description: "Gera sprites, animações, tilesets e arte de jogo."
+tema: jogos
+tipo: mcp
 tags: [jogos, mcp]
+status: catalogado
+alternativas: [gamelabs-mcp, ludo-mcp]
+combina-com: []
 ---
 
 # spritecook-mcp

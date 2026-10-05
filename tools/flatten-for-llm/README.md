@@ -1,7 +1,12 @@
 ---
 name: flatten-for-llm
-description: Achata o projeto Godot em texto para colar num LLM.
-tags: [jogos, godot, editor]
+description: "Achata o projeto Godot em texto para colar num LLM."
+tema: godot
+tipo: editor
+tags: [editor, godot, jogos]
+status: catalogado
+alternativas: []
+combina-com: []
 ---
 
 # flatten-for-llm

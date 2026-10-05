@@ -1,7 +1,12 @@
 ---
 name: deep-research-skills-hitl
-description: Pesquisa estruturada em duas fases com aprovação humana a cada etapa.
+description: "Pesquisa estruturada em duas fases com aprovação humana a cada etapa."
+tema: pesquisa
+tipo: skill
 tags: [pesquisa, skill]
+status: catalogado
+alternativas: [agent-research-skills, claude-deep-research-skill]
+combina-com: []
 ---
 
 # deep-research-skills-hitl

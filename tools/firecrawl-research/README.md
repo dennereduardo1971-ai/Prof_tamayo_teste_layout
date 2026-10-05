@@ -1,7 +1,12 @@
 ---
 name: firecrawl-research
-description: Agente autônomo de pesquisa e scraping para temas com muitas fontes.
-tags: [pesquisa, mcp]
+description: "Agente autônomo de pesquisa e scraping para temas com muitas fontes."
+tema: pesquisa
+tipo: mcp
+tags: [mcp, pesquisa]
+status: catalogado
+alternativas: []
+combina-com: []
 ---
 
 # firecrawl-research

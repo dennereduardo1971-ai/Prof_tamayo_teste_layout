@@ -1,7 +1,12 @@
 ---
 name: anki-mcp
-description: MCPs que criam, buscam e revisam flashcards no Anki via AnkiConnect.
+description: "MCPs que criam, buscam e revisam flashcards no Anki via AnkiConnect."
+tema: aprendizado
+tipo: mcp
 tags: [aprendizado, mcp]
+status: catalogado
+alternativas: []
+combina-com: [key-learning, study-skill, youtube-transcript-mcp]
 ---
 
 # anki-mcp

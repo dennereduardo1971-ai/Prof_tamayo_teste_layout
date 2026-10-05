@@ -1,7 +1,12 @@
 ---
 name: learning-commons
-description: Padrões, habilidades e progressões de aprendizagem do ensino básico (K-12, EUA).
+description: "Padrões, habilidades e progressões de aprendizagem do ensino básico (K-12, EUA)."
+tema: aprendizado
+tipo: mcp
 tags: [aprendizado, mcp]
+status: catalogado
+alternativas: []
+combina-com: []
 ---
 
 # learning-commons

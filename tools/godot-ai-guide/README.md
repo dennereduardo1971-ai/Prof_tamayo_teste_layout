@@ -1,7 +1,12 @@
 ---
 name: godot-ai-guide
-description: Comparativos de ferramentas de IA para Godot (MCPs, plugins e assistentes).
-tags: [jogos, godot, guia]
+description: "Comparativos de ferramentas de IA para Godot (MCPs, plugins e assistentes)."
+tema: godot
+tipo: guia
+tags: [godot, guia, jogos]
+status: catalogado
+alternativas: []
+combina-com: [gdai-mcp]
 ---
 
 # godot-ai-guide

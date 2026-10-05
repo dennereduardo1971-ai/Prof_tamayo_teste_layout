@@ -1,7 +1,12 @@
 ---
 name: godot-mcp-coding-solo
-description: MCP MIT sem plugin: abre o editor, roda o projeto em debug e captura a saída via linha de comando.
-tags: [jogos, godot, mcp]
+description: "MCP MIT sem plugin: abre o editor, roda o projeto em debug e captura a saída via linha de comando."
+tema: godot
+tipo: mcp
+tags: [godot, jogos, mcp]
+status: catalogado
+alternativas: [claude-godot-mcp, gdai-mcp, godot-ai-dlight, godot-forge, godot-mcp, godot-mcp-mkdevkit, godot-mcp-pro, godot-mcp-satelliteoflove, strayspark-godot-mcp]
+combina-com: []
 ---
 
 # godot-mcp-coding-solo

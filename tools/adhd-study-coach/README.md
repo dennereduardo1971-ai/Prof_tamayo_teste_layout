@@ -1,7 +1,12 @@
 ---
 name: adhd-study-coach
-description: Agente de estudo para TDAH: blocos pequenos, repetição espaçada e reflexão Feynman.
+description: "Agente de estudo para TDAH: blocos pequenos, repetição espaçada e reflexão Feynman."
+tema: aprendizado
+tipo: skill
 tags: [aprendizado, skill]
+status: catalogado
+alternativas: [agent-tutor-skill, claude-tutor-kirilxd, claude-tutor-kubilaiswf, key-learning, maxlearn, study-skill, study-skills-jacquard]
+combina-com: []
 ---
 
 # adhd-study-coach

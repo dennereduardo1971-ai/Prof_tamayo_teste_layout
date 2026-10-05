@@ -1,7 +1,12 @@
 ---
 name: context7
-description: MCP com documentação de bibliotecas atualizada e por versão.
-tags: [pesquisa, mcp]
+description: "MCP com documentação de bibliotecas atualizada e por versão."
+tema: pesquisa
+tipo: mcp
+tags: [mcp, pesquisa]
+status: catalogado
+alternativas: []
+combina-com: [claude-deep-research-skill]
 ---
 
 # context7

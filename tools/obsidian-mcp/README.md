@@ -1,7 +1,12 @@
 ---
 name: obsidian-mcp
-description: MCPs para ler, buscar e editar notas de um cofre Obsidian.
+description: "MCPs para ler, buscar e editar notas de um cofre Obsidian."
+tema: aprendizado
+tipo: mcp
 tags: [aprendizado, mcp]
+status: catalogado
+alternativas: []
+combina-com: [memory-knowledge-graph]
 ---
 
 # obsidian-mcp

@@ -1,7 +1,12 @@
 ---
 name: token-economy-guide
-description: Boas práticas para gastar menos tokens no Claude Code.
-tags: [economia-de-token, guia]
+description: "Boas práticas para gastar menos tokens no Claude Code."
+tema: tokens
+tipo: guia
+tags: [guia, tokens]
+status: catalogado
+alternativas: []
+combina-com: [context-mode, rtk]
 ---
 
 # token-economy-guide

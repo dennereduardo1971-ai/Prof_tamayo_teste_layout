@@ -1,7 +1,12 @@
 ---
 name: youtube-transcript-mcp
-description: Lê transcrições do YouTube sem chave de API.
+description: "Lê transcrições do YouTube sem chave de API."
+tema: aprendizado
+tipo: mcp
 tags: [aprendizado, mcp]
+status: catalogado
+alternativas: []
+combina-com: [anki-mcp]
 ---
 
 # youtube-transcript-mcp

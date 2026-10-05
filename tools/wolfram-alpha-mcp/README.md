@@ -1,7 +1,12 @@
 ---
 name: wolfram-alpha-mcp
-description: Cálculos, equações, conversões e dados factuais via Wolfram Alpha.
+description: "Cálculos, equações, conversões e dados factuais via Wolfram Alpha."
+tema: aprendizado
+tipo: mcp
 tags: [aprendizado, mcp]
+status: catalogado
+alternativas: [wikipedia-mcp]
+combina-com: []
 ---
 
 # wolfram-alpha-mcp

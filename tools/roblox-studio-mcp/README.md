@@ -1,7 +1,12 @@
 ---
 name: roblox-studio-mcp
-description: MCP nativo do Roblox Studio: insere modelos da Creator Store e executa Luau.
+description: "MCP nativo do Roblox Studio: insere modelos da Creator Store e executa Luau."
+tema: jogos
+tipo: mcp
 tags: [jogos, mcp]
+status: catalogado
+alternativas: []
+combina-com: []
 ---
 
 # roblox-studio-mcp

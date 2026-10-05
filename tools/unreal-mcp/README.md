@@ -1,7 +1,12 @@
 ---
 name: unreal-mcp
-description: MCPs open source para Unreal Engine; UE 5.8 traz plugin MCP experimental oficial.
+description: "MCPs open source para Unreal Engine; UE 5.8 traz plugin MCP experimental oficial."
+tema: jogos
+tipo: mcp
 tags: [jogos, mcp]
+status: catalogado
+alternativas: []
+combina-com: []
 ---
 
 # unreal-mcp

@@ -1,7 +1,12 @@
 ---
 name: aidesigner-mcp
-description: MCP de geração de UI com IA.
+description: "MCP de geração de UI com IA."
+tema: design
+tipo: mcp
 tags: [design, mcp]
+status: catalogado
+alternativas: [figma-mcp, magic-patterns-mcp]
+combina-com: []
 ---
 
 # aidesigner-mcp

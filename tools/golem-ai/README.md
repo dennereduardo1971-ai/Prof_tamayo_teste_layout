@@ -1,7 +1,12 @@
 ---
 name: golem-ai
-description: Assistente no dock do editor com modelos locais ou na nuvem, incluindo Anthropic.
-tags: [jogos, godot, editor]
+description: "Assistente no dock do editor com modelos locais ou na nuvem, incluindo Anthropic."
+tema: godot
+tipo: editor
+tags: [editor, godot, jogos]
+status: catalogado
+alternativas: [ai-assistant-hub, fuku, godot-ai-assistant-groq, summer-engine, ziva]
+combina-com: []
 ---
 
 # golem-ai

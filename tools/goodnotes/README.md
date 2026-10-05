@@ -1,7 +1,12 @@
 ---
 name: goodnotes
-description: Gera documentos, diagramas Mermaid e imagens SVG no Goodnotes.
+description: "Gera documentos, diagramas Mermaid e imagens SVG no Goodnotes."
+tema: aprendizado
+tipo: mcp
 tags: [aprendizado, mcp]
+status: catalogado
+alternativas: []
+combina-com: []
 ---
 
 # goodnotes

@@ -1,7 +1,12 @@
 ---
 name: bifrost-code-mode
-description: Expõe servidores MCP como arquivos Python leves para o modelo ler só o necessário.
-tags: [economia-de-token, mcp]
+description: "Expõe servidores MCP como arquivos Python leves para o modelo ler só o necessário."
+tema: tokens
+tipo: mcp
+tags: [mcp, tokens]
+status: catalogado
+alternativas: [context-mode, semantic-cache-mcp, token-reducer]
+combina-com: []
 ---
 
 # bifrost-code-mode

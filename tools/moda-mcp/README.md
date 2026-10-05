@@ -1,7 +1,12 @@
 ---
 name: moda-mcp
-description: Conector Moda para slides, anúncios, motion graphics e posts editáveis.
+description: "Conector Moda para slides, anúncios, motion graphics e posts editáveis."
+tema: design
+tipo: mcp
 tags: [design, mcp]
+status: catalogado
+alternativas: [adobe-mcp, canva-mcp]
+combina-com: []
 ---
 
 # moda-mcp

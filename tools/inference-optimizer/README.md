@@ -1,7 +1,12 @@
 ---
 name: inference-optimizer
-description: Ferramenta de otimização de inferência encontrada na busca; detalhes não verificados.
-tags: [economia-de-token, outro]
+description: "Ferramenta de otimização de inferência encontrada na busca; detalhes não verificados."
+tema: tokens
+tipo: outro
+tags: [outro, tokens]
+status: catalogado
+alternativas: []
+combina-com: []
 ---
 
 # inference-optimizer

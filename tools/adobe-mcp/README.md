@@ -1,7 +1,12 @@
 ---
 name: adobe-mcp
-description: Conector Adobe com ferramentas pro de design, edição e animação.
+description: "Conector Adobe com ferramentas pro de design, edição e animação."
+tema: design
+tipo: mcp
 tags: [design, mcp]
+status: catalogado
+alternativas: [canva-mcp, moda-mcp]
+combina-com: []
 ---
 
 # adobe-mcp

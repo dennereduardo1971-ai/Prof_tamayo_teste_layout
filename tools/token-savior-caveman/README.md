@@ -1,7 +1,12 @@
 ---
 name: token-savior-caveman
-description: token-savior e caveman, citados em comparativo com reduções de 20-43% junto com cache MCP e roteamento Haiku.
-tags: [economia-de-token, outro]
+description: "token-savior e caveman, citados em comparativo com reduções de 20-43% junto com cache MCP e roteamento Haiku."
+tema: tokens
+tipo: outro
+tags: [outro, tokens]
+status: catalogado
+alternativas: []
+combina-com: []
 ---
 
 # token-savior-caveman

@@ -1,7 +1,12 @@
 ---
 name: kuliko-ai
-description: Companheiro de estudo: matérias, documentos, recursos gerados e flashcards.
+description: "Companheiro de estudo: matérias, documentos, recursos gerados e flashcards."
+tema: aprendizado
+tipo: mcp
 tags: [aprendizado, mcp]
+status: catalogado
+alternativas: []
+combina-com: []
 ---
 
 # kuliko-ai

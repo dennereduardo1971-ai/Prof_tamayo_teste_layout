@@ -1,19 +1,12 @@
 # Ferramentas
 
-Acervo privado de ferramentas. Fonte principal de busca: consulte o [INDEX.md](INDEX.md) primeiro.
+Acervo privado de ferramentas para o Claude. Fonte principal de busca: [INDEX.md](INDEX.md). Regras de busca e manutenção: [CLAUDE.md](CLAUDE.md).
 
 ## Estrutura
 
 ```
-tools/<nome-da-ferramenta>/
-  README.md   # frontmatter + uso
-  ...         # código da ferramenta (autocontido)
-tools/_template/   # modelo para novas ferramentas
-INDEX.md           # índice central (nome, descrição, tags)
+tools/<nome-da-ferramenta>/README.md   # frontmatter (tema, tipo, status, alternativas, combina-com) + uso
+tools/_template/                       # modelo para novas ferramentas
+INDEX.md                               # índice por tema
+CLAUDE.md                              # como buscar e manter o acervo
 ```
-
-## Adicionar ferramenta
-
-1. Copie `tools/_template` para `tools/<nome>` (kebab-case).
-2. Preencha o frontmatter do `README.md`.
-3. Adicione uma linha no `INDEX.md`.

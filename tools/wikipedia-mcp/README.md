@@ -1,7 +1,12 @@
 ---
 name: wikipedia-mcp
-description: Busca artigos, resumos, referências e categorias da Wikipédia.
+description: "Busca artigos, resumos, referências e categorias da Wikipédia."
+tema: aprendizado
+tipo: mcp
 tags: [aprendizado, mcp]
+status: catalogado
+alternativas: [wolfram-alpha-mcp]
+combina-com: []
 ---
 
 # wikipedia-mcp

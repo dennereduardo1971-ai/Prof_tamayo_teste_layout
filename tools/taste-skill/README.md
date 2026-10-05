@@ -1,7 +1,12 @@
 ---
 name: taste-skill
-description: Suíte de 11 variantes de skill de frontend e 3 de geração de imagem, com ajuste por 3 parâmetros.
+description: "Suíte de 11 variantes de skill de frontend e 3 de geração de imagem, com ajuste por 3 parâmetros."
+tema: design
+tipo: skill
 tags: [design, skill]
+status: catalogado
+alternativas: [anthropic-frontend-design, claude-frontend-skills, frontend-design-anchors, libreuiux, ui-ux-pro-max]
+combina-com: []
 ---
 
 # taste-skill

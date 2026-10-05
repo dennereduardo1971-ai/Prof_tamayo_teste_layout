@@ -1,7 +1,12 @@
 ---
 name: magic-patterns-mcp
-description: Conector para discutir e iterar protótipos de UI do Magic Patterns.
+description: "Conector para discutir e iterar protótipos de UI do Magic Patterns."
+tema: design
+tipo: mcp
 tags: [design, mcp]
+status: catalogado
+alternativas: [aidesigner-mcp, figma-mcp]
+combina-com: []
 ---
 
 # magic-patterns-mcp

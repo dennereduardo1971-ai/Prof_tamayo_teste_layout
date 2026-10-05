@@ -1,7 +1,12 @@
 ---
 name: mem0
-description: Memória persistente para agentes (adicionar, buscar e atualizar memórias).
+description: "Memória persistente para agentes (adicionar, buscar e atualizar memórias)."
+tema: aprendizado
+tipo: mcp
 tags: [aprendizado, mcp]
+status: catalogado
+alternativas: [memory-knowledge-graph]
+combina-com: []
 ---
 
 # mem0

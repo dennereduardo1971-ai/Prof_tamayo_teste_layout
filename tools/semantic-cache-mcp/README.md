@@ -1,7 +1,12 @@
 ---
 name: semantic-cache-mcp
-description: MCP de cache semântico para reduzir leituras repetidas.
-tags: [economia-de-token, mcp]
+description: "MCP de cache semântico para reduzir leituras repetidas."
+tema: tokens
+tipo: mcp
+tags: [mcp, tokens]
+status: catalogado
+alternativas: [bifrost-code-mode, context-mode, token-reducer]
+combina-com: []
 ---
 
 # semantic-cache-mcp

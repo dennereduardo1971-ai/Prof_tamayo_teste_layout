@@ -1,7 +1,12 @@
 ---
 name: github-deep-research
-description: Investigação em 4 etapas de repositórios GitHub (API, web, timeline, saúde da comunidade).
+description: "Investigação em 4 etapas de repositórios GitHub (API, web, timeline, saúde da comunidade)."
+tema: pesquisa
+tipo: skill
 tags: [pesquisa, skill]
+status: catalogado
+alternativas: []
+combina-com: [claude-deep-research-skill]
 ---
 
 # github-deep-research

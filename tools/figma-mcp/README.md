@@ -1,7 +1,12 @@
 ---
 name: figma-mcp
-description: Conector oficial do Figma: contexto de design, tokens, variáveis, Code Connect e diagramas.
+description: "Conector oficial do Figma: contexto de design, tokens, variáveis, Code Connect e diagramas."
+tema: design
+tipo: mcp
 tags: [design, mcp]
+status: catalogado
+alternativas: [aidesigner-mcp, magic-patterns-mcp]
+combina-com: [anthropic-frontend-design, ui-ux-pro-max]
 ---
 
 # figma-mcp

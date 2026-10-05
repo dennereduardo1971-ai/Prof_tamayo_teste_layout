@@ -1,7 +1,12 @@
 ---
 name: ziva
-description: Agente de IA dentro do editor Godot 4.2+: árvore de cenas, sinais, GDScript/C#, sprites e TileMaps.
-tags: [jogos, godot, editor]
+description: "Agente de IA dentro do editor Godot 4.2+: árvore de cenas, sinais, GDScript/C#, sprites e TileMaps."
+tema: godot
+tipo: editor
+tags: [editor, godot, jogos]
+status: catalogado
+alternativas: [ai-assistant-hub, fuku, godot-ai-assistant-groq, golem-ai, summer-engine]
+combina-com: []
 ---
 
 # ziva

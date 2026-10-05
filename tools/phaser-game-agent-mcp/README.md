@@ -1,7 +1,12 @@
 ---
 name: phaser-game-agent-mcp
-description: MCP oficial do Phaser para criar jogos web com código, arte e som pelo agente.
+description: "MCP oficial do Phaser para criar jogos web com código, arte e som pelo agente."
+tema: jogos
+tipo: mcp
 tags: [jogos, mcp]
+status: catalogado
+alternativas: []
+combina-com: [ludo-mcp]
 ---
 
 # phaser-game-agent-mcp

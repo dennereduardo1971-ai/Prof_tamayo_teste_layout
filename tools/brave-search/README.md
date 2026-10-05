@@ -1,7 +1,12 @@
 ---
 name: brave-search
-description: MCP de busca web, notícias, imagens, vídeos e local via Brave.
-tags: [pesquisa, mcp]
+description: "MCP de busca web, notícias, imagens, vídeos e local via Brave."
+tema: pesquisa
+tipo: mcp
+tags: [mcp, pesquisa]
+status: catalogado
+alternativas: [exa-search, parallel-search, perplexity-mcp, tavily-search]
+combina-com: []
 ---
 
 # brave-search

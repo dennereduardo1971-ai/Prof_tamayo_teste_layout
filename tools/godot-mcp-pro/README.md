@@ -1,7 +1,12 @@
 ---
 name: godot-mcp-pro
-description: 162 ferramentas MCP: cena, animação, 3D, física, partículas, áudio, shader, simulação de input, testes.
-tags: [jogos, godot, mcp]
+description: "162 ferramentas MCP: cena, animação, 3D, física, partículas, áudio, shader, simulação de input, testes."
+tema: godot
+tipo: mcp
+tags: [godot, jogos, mcp]
+status: catalogado
+alternativas: [claude-godot-mcp, gdai-mcp, godot-ai-dlight, godot-forge, godot-mcp, godot-mcp-coding-solo, godot-mcp-mkdevkit, godot-mcp-satelliteoflove, strayspark-godot-mcp]
+combina-com: []
 ---
 
 # godot-mcp-pro

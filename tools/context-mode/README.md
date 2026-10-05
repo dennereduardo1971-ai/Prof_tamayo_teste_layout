@@ -1,7 +1,12 @@
 ---
 name: context-mode
-description: Plugin MCP que envia saídas grandes de ferramentas para uma base local em vez da conversa.
-tags: [economia-de-token, mcp]
+description: "Plugin MCP que envia saídas grandes de ferramentas para uma base local em vez da conversa."
+tema: tokens
+tipo: mcp
+tags: [mcp, tokens]
+status: catalogado
+alternativas: [bifrost-code-mode, semantic-cache-mcp, token-reducer]
+combina-com: [rtk, token-economy-guide]
 ---
 
 # context-mode

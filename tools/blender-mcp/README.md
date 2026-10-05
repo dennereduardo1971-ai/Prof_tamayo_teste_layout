@@ -1,7 +1,12 @@
 ---
 name: blender-mcp
-description: MCP original da comunidade para controlar o Blender (cenas, objetos, render).
+description: "MCP original da comunidade para controlar o Blender (cenas, objetos, render)."
+tema: jogos
+tipo: mcp
 tags: [jogos, mcp]
+status: catalogado
+alternativas: []
+combina-com: [gdai-mcp, godot-ai-dlight, godot-mcp]
 ---
 
 # blender-mcp
