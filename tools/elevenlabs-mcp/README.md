@@ -5,7 +5,7 @@ tema: midia
 tipo: mcp
 tags: [mcp, midia]
 status: catalogado
-alternativas: []
+alternativas: [elevenlabs-official-mcp]
 combina-com: [claude-code-video-toolkit]
 ---
 

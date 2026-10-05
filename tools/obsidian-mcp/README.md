@@ -5,7 +5,7 @@ tema: aprendizado
 tipo: mcp
 tags: [aprendizado, mcp]
 status: catalogado
-alternativas: []
+alternativas: [notion-mcp]
 combina-com: [memory-knowledge-graph]
 ---
 

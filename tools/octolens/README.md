@@ -6,7 +6,7 @@ tipo: mcp
 tags: [mcp, social]
 status: catalogado
 alternativas: [embedsocial, intenthunter, reddit-mcp-buddy, social-listening-mcp]
-combina-com: []
+combina-com: [tinyfish]
 ---
 
 # octolens

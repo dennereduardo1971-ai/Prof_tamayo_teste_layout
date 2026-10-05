@@ -6,7 +6,7 @@ tipo: mcp
 tags: [mcp, social]
 status: catalogado
 alternativas: [ayrshare-mcp, buffer-mcp, metricool, posteverywhere-mcp, postsyncer-mcp, publer-mcp, upload-post-mcp]
-combina-com: [social-calendar-skill]
+combina-com: [n8n-mcp, social-calendar-skill]
 ---
 
 # postiz

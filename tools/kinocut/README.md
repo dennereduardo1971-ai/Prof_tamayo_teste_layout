@@ -6,7 +6,7 @@ tipo: mcp
 tags: [mcp, midia]
 status: catalogado
 alternativas: [ffmpeg-mcp-server, video-audio-mcp]
-combina-com: [claude-remotion-skill, davinci-resolve-mcp]
+combina-com: [claude-remotion-skill, davinci-resolve-mcp, whisper-mcp]
 ---
 
 # kinocut

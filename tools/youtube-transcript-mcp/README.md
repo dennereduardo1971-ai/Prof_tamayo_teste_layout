@@ -5,7 +5,7 @@ tema: aprendizado
 tipo: mcp
 tags: [aprendizado, mcp]
 status: catalogado
-alternativas: []
+alternativas: [video-transcriber-mcp]
 combina-com: [anki-mcp]
 ---
 

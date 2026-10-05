@@ -6,7 +6,7 @@ tipo: skill
 tags: [midia, skill]
 status: catalogado
 alternativas: [claude-remotion-skill, video-editing-skill]
-combina-com: [elevenlabs-mcp, fal-ai-mcp]
+combina-com: [elevenlabs-mcp, elevenlabs-official-mcp, fal-ai-mcp]
 ---
 
 # claude-code-video-toolkit

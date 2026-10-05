@@ -11,6 +11,17 @@ SECOES = {  # tema: (título, recomendação "Comece por")
     'midia': ('Imagem e vídeo', 'kinocut (vídeo) + mcp-image (imagem) + claude-remotion-skill'),
     'marketing': ('Marketing', 'marketingskills + ahrefs-mcp ou semrush-mcp + google-analytics-mcp'),
     'social': ('Redes sociais', 'postiz ou buffer-mcp (agendar) + MCP da rede principal + social-calendar-skill + octolens (escuta)'),
+    'automacao': ('Automação e produtividade', 'zapier-mcp ou n8n-mcp + gmail-mcp + google-calendar-mcp + notion-mcp'),
+    'dev': ('Desenvolvimento', 'github-mcp + context7 + playwright-mcp + supabase-mcp ou postgres-mcp + sentry-mcp'),
+    'navegador': ('Navegador e scraping', 'playwright-mcp (automatizar) + chrome-devtools-mcp (depurar)'),
+    'audio': ('Áudio, voz e música', 'elevenlabs-official-mcp + whisper-mcp'),
+    'dados': ('Dados e planilhas', 'postgres-mcp ou bigquery-mcp + google-sheets-mcp + metabase-mcp'),
+    'documentos': ('Documentos e escrita', 'anthropic-document-skills'),
+    'agentes': ('Agentes e orquestração', 'awesome-claude-code-subagents + workflow-orchestration'),
+    'ensino': ('Ensino (professor)', 'claude-edu-plugins + teacher-skills-guide'),
+    'ecommerce': ('E-commerce', 'shopify-mcp ou ecommerce-mcp-server (Mercado Livre) + stripe-mcp'),
+    'financas': ('Finanças', 'quickbooks-mcp ou xero-mcp + stripe-mcp'),
+    'seguranca': ('Segurança', 'snyk-agent-scan + /security-review do Claude Code'),
 }
 
 rows = {k: [] for k in SECOES}

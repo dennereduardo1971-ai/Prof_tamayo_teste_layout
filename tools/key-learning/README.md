@@ -6,7 +6,7 @@ tipo: skill
 tags: [aprendizado, skill]
 status: catalogado
 alternativas: [adhd-study-coach, agent-tutor-skill, claude-tutor-kirilxd, claude-tutor-kubilaiswf, maxlearn, study-skill, study-skills-jacquard]
-combina-com: [anki-mcp]
+combina-com: [anki-mcp, teacher-skills-guide]
 ---
 
 # key-learning

@@ -6,7 +6,7 @@ tipo: mcp
 tags: [mcp, pesquisa]
 status: catalogado
 alternativas: []
-combina-com: [claude-deep-research-skill]
+combina-com: [claude-deep-research-skill, github-mcp, supabase-mcp]
 ---
 
 # context7

@@ -3,7 +3,7 @@
 Busque aqui primeiro. Detalhes, `alternativas` e `combina-com` ficam no frontmatter de cada `tools/<nome>/README.md`.
 Gerado por `scripts/build_index.py`; não edite à mão.
 
-Seções: [Pesquisa](#pesquisa) · [Economia de tokens](#economia-de-tokens) · [Design](#design) · [Jogos](#jogos) · [Godot](#godot) · [Aprendizado](#aprendizado) · [Imagem e vídeo](#imagem-e-vídeo) · [Marketing](#marketing) · [Redes sociais](#redes-sociais)
+Seções: [Pesquisa](#pesquisa) · [Economia de tokens](#economia-de-tokens) · [Design](#design) · [Jogos](#jogos) · [Godot](#godot) · [Aprendizado](#aprendizado) · [Imagem e vídeo](#imagem-e-vídeo) · [Marketing](#marketing) · [Redes sociais](#redes-sociais) · [Automação e produtividade](#automação-e-produtividade) · [Desenvolvimento](#desenvolvimento) · [Navegador e scraping](#navegador-e-scraping) · [Áudio, voz e música](#áudio,-voz-e-música) · [Dados e planilhas](#dados-e-planilhas) · [Documentos e escrita](#documentos-e-escrita) · [Agentes e orquestração](#agentes-e-orquestração) · [Ensino (professor)](#ensino-(professor)) · [E-commerce](#e-commerce) · [Finanças](#finanças) · [Segurança](#segurança)
 
 ## Pesquisa
 
@@ -252,3 +252,137 @@ Seções: [Pesquisa](#pesquisa) · [Economia de tokens](#economia-de-tokens) · 
 | [whatsapp-mcp](tools/whatsapp-mcp) | mcp | Liga sua conta pessoal do WhatsApp ao Claude: ler, buscar, enviar, transmitir e gerenciar grupos (22 ferramentas, local). | catalogado |
 | [x-mcp](tools/x-mcp) | mcp | Publica e agenda tweets com imagens, GIFs e vídeo pela API oficial do X, com skills de threads e calendário. | catalogado |
 | [youtube-mcp](tools/youtube-mcp) | mcp | Gestão de canal do YouTube com 21 ferramentas, incluindo analytics (views, watch time, inscritos, receita). | catalogado |
+
+## Automação e produtividade
+
+**Comece por:** zapier-mcp ou n8n-mcp + gmail-mcp + google-calendar-mcp + notion-mcp
+
+| Ferramenta | Tipo | Descrição | Status |
+|---|---|---|---|
+| [gmail-mcp](tools/gmail-mcp) | mcp | Busca e-mails, resume conversas, cria rascunhos, filtros e rótulos no Gmail. | catalogado |
+| [google-calendar-mcp](tools/google-calendar-mcp) | mcp | Cria, busca e responde eventos e sugere horários no Google Calendar. | catalogado |
+| [google-drive-mcp](tools/google-drive-mcp) | mcp | Busca, lê, copia e envia arquivos no Google Drive. | catalogado |
+| [linear-mcp](tools/linear-mcp) | mcp | Gerencia issues, projetos, ciclos e documentos no Linear. | catalogado |
+| [make-mcp](tools/make-mcp) | mcp | MCP do Make para disparar cenários de automação. | catalogado |
+| [n8n-mcp](tools/n8n-mcp) | mcp | Busca, executa e publica workflows do n8n; auto-hospedável, os dados ficam na sua infraestrutura. | catalogado |
+| [notion-mcp](tools/notion-mcp) | mcp | Busca, cria e atualiza páginas e bancos de dados do Notion. | catalogado |
+| [pipedream-mcp](tools/pipedream-mcp) | mcp | MCP do Pipedream para workflows e integrações com milhares de APIs. | catalogado |
+| [productivity-guide](tools/productivity-guide) | guia | Comparativos de MCPs de automação e produtividade. | catalogado |
+| [zapier-mcp](tools/zapier-mcp) | mcp | MCP oficial do Zapier: conecta o Claude a mais de 8.000 apps, cuidando de login e limites. | catalogado |
+
+## Desenvolvimento
+
+**Comece por:** github-mcp + context7 + playwright-mcp + supabase-mcp ou postgres-mcp + sentry-mcp
+
+| Ferramenta | Tipo | Descrição | Status |
+|---|---|---|---|
+| [dev-mcp-guide](tools/dev-mcp-guide) | guia | Comparativos de MCPs para desenvolvimento. Núcleo sugerido: Context7, GitHub, Postgres/Supabase, Playwright e Sentry. | catalogado |
+| [github-mcp](tools/github-mcp) | mcp | MCP oficial do GitHub: repositórios, PRs, issues e CI. | catalogado |
+| [postgres-mcp](tools/postgres-mcp) | mcp | Escreve e executa SQL em qualquer Postgres (Supabase, Neon, Railway) a partir de perguntas em linguagem natural. | catalogado |
+| [sentry-mcp](tools/sentry-mcp) | mcp | Busca e depura erros, releases e issues do Sentry. | catalogado |
+| [supabase-mcp](tools/supabase-mcp) | mcp | Banco, auth, storage, edge functions e configuração do projeto Supabase. | catalogado |
+
+## Navegador e scraping
+
+**Comece por:** playwright-mcp (automatizar) + chrome-devtools-mcp (depurar)
+
+| Ferramenta | Tipo | Descrição | Status |
+|---|---|---|---|
+| [browser-guide](tools/browser-guide) | guia | Comparativos de automação de navegador para agentes. | catalogado |
+| [browser-use](tools/browser-use) | outro | Framework open source de agente de navegador; também tem MCP. | catalogado |
+| [browserbase-mcp](tools/browserbase-mcp) | mcp | Navegadores na nuvem gerenciados (Stagehand), com sessões persistentes e replay. | catalogado |
+| [chrome-devtools-mcp](tools/chrome-devtools-mcp) | mcp | Conecta ao seu Chrome aberto: 29 ferramentas de navegação, rede, console, performance e debug. | catalogado |
+| [playwright-mcp](tools/playwright-mcp) | mcp | MCP oficial da Microsoft: automação de navegador por árvore de acessibilidade em Chrome, Firefox, WebKit e Edge. | catalogado |
+| [tinyfish](tools/tinyfish) | mcp | Agente de navegador na nuvem: login em portais, formulários, scraping de redes, preços e monitoramento. | catalogado |
+
+## Áudio, voz e música
+
+**Comece por:** elevenlabs-official-mcp + whisper-mcp
+
+| Ferramenta | Tipo | Descrição | Status |
+|---|---|---|---|
+| [audio-guide](tools/audio-guide) | guia | Guia de MCPs para música e áudio: DAWs, MIDI, geração, notação, podcast e sound design. | catalogado |
+| [elevenlabs-official-mcp](tools/elevenlabs-official-mcp) | mcp | MCP oficial hospedado da ElevenLabs: voz, efeitos, música, clonagem, transcrição, imagem e vídeo (OAuth). | catalogado |
+| [suno-mcp](tools/suno-mcp) | mcp | Geração de música, letras e covers com Suno via Ace Data Cloud (não oficial). | catalogado |
+| [video-transcriber-mcp](tools/video-transcriber-mcp) | mcp | Transcreve vídeos de mais de 1000 plataformas (YouTube, Vimeo, TikTok) com Whisper. | catalogado |
+| [whisper-mcp](tools/whisper-mcp) | mcp | Transcrição local com Whisper (tiny a large; wav, mp3, m4a). | catalogado |
+
+## Dados e planilhas
+
+**Comece por:** postgres-mcp ou bigquery-mcp + google-sheets-mcp + metabase-mcp
+
+| Ferramenta | Tipo | Descrição | Status |
+|---|---|---|---|
+| [bigquery-mcp](tools/bigquery-mcp) | mcp | MCP gerenciado do Google BigQuery (remoto) para consultas analíticas em linguagem natural. | catalogado |
+| [data-guide](tools/data-guide) | guia | Comparativos de MCPs para dados, bancos e BI. | catalogado |
+| [excel-mcp](tools/excel-mcp) | mcp | Lê, escreve e analisa a estrutura de arquivos Excel. | catalogado |
+| [google-sheets-mcp](tools/google-sheets-mcp) | mcp | Consulta planilhas do Google Sheets em linguagem natural. | catalogado |
+| [metabase-mcp](tools/metabase-mcp) | mcp | Conector oficial do Metabase para Claude, além de servidores comunitários. | catalogado |
+| [superset-mcp](tools/superset-mcp) | mcp | Extensão MCP oficial do Apache Superset: dashboards, gráficos e datasets. | catalogado |
+
+## Documentos e escrita
+
+**Comece por:** anthropic-document-skills
+
+| Ferramenta | Tipo | Descrição | Status |
+|---|---|---|---|
+| [anthropic-document-skills](tools/anthropic-document-skills) | skill | Skills oficiais da Anthropic para docx, pdf, pptx e xlsx: criar, editar, extrair e preencher formulários. | catalogado |
+| [awesome-claude-skills-lists](tools/awesome-claude-skills-lists) | lista | Listas de skills verificadas: documentos, git, debug, TDD e mais. | catalogado |
+| [translate-book](tools/translate-book) | skill | Traduz papers e livros, preservando equações e tabelas via LaTeX do arXiv. | catalogado |
+
+## Agentes e orquestração
+
+**Comece por:** awesome-claude-code-subagents + workflow-orchestration
+
+| Ferramenta | Tipo | Descrição | Status |
+|---|---|---|---|
+| [agent-flow](tools/agent-flow) | plugin | Plugin que transforma o Claude Code em sistema multiagente com portões de verificação e escolha de modelo por custo. | catalogado |
+| [awesome-claude-code-subagents](tools/awesome-claude-code-subagents) | lista | Mais de 100 subagentes especializados para o Claude Code. | catalogado |
+| [awesome-claude-code-toolkit](tools/awesome-claude-code-toolkit) | lista | Kit com 135 agentes, skills, comandos, plugins, hooks, regras e configs de MCP. | catalogado |
+| [awesome-claude-code-workflows](tools/awesome-claude-code-workflows) | lista | Receitas que combinam hooks, MCPs, skills, agentes e CLAUDE.md. | catalogado |
+| [ruflo](tools/ruflo) | outro | Plataforma de orquestração de enxames de agentes com memória, RAG e integração ao Claude Code (antigo claude-flow). | catalogado |
+| [workflow-orchestration](tools/workflow-orchestration) | plugin | Plugin de orquestração: decompõe tarefas e executa agentes em paralelo, integrado ao plan mode. | catalogado |
+
+## Ensino (professor)
+
+**Comece por:** claude-edu-plugins + teacher-skills-guide
+
+| Ferramenta | Tipo | Descrição | Status |
+|---|---|---|---|
+| [canvas-lms-claude](tools/canvas-lms-claude) | outro | Integração do Claude for Education com o Canvas LMS (instituições parceiras). | catalogado |
+| [claude-edu-plugins](tools/claude-edu-plugins) | plugin | Plugins para professores: gestão de cursos no Moodle (atividades, quizzes, GIFT, correção de redações) e criação de quizzes no Kahoot. | catalogado |
+| [teacher-skills-guide](tools/teacher-skills-guide) | guia | Skills e prompts para professores: planos de aula, rubricas, provas, feedback e cursos. | catalogado |
+
+## E-commerce
+
+**Comece por:** shopify-mcp ou ecommerce-mcp-server (Mercado Livre) + stripe-mcp
+
+| Ferramenta | Tipo | Descrição | Status |
+|---|---|---|---|
+| [aftership-tiktok-shop](tools/aftership-tiktok-shop) | mcp | Lista, sincroniza e gerencia produtos e pedidos do TikTok Shop. | catalogado |
+| [ecommerce-guide](tools/ecommerce-guide) | guia | Comparativos de MCPs para e-commerce. | catalogado |
+| [ecommerce-mcp-server](tools/ecommerce-mcp-server) | mcp | Um endpoint com 160 ferramentas para 13 plataformas, incluindo Mercado Livre, Amazon, eBay e WooCommerce. | catalogado |
+| [shopify-mcp](tools/shopify-mcp) | mcp | Conector do Shopify: produtos, pedidos, clientes e análise da loja. | catalogado |
+| [stripe-mcp](tools/stripe-mcp) | mcp | MCP oficial do Stripe: pagamentos, reembolsos, assinaturas, saldo e documentação. | catalogado |
+| [woocommerce-mcp](tools/woocommerce-mcp) | mcp | MCP para lojas WooCommerce. | catalogado |
+
+## Finanças
+
+**Comece por:** quickbooks-mcp ou xero-mcp + stripe-mcp
+
+| Ferramenta | Tipo | Descrição | Status |
+|---|---|---|---|
+| [finance-guide](tools/finance-guide) | guia | MCPs para contabilidade e finanças (QuickBooks, Xero, Stripe, Ramp, NetSuite). | catalogado |
+| [quickbooks-mcp](tools/quickbooks-mcp) | mcp | Conector oficial da Intuit: relatórios, DRE, fluxo de caixa, faturas, clientes e transações do QuickBooks. | catalogado |
+| [xero-mcp](tools/xero-mcp) | mcp | MCP oficial do Xero: faturas, contatos e conciliação bancária. | catalogado |
+
+## Segurança
+
+**Comece por:** snyk-agent-scan + /security-review do Claude Code
+
+| Ferramenta | Tipo | Descrição | Status |
+|---|---|---|---|
+| [awesome-claude-code-security](tools/awesome-claude-code-security) | lista | Lista de recursos de segurança, hardening e governança para Claude Code. | catalogado |
+| [claude-security-scan](tools/claude-security-scan) | skill | Audita a pasta .claude/: segredos, shell permissivo demais e prompt injection em CLAUDE.md e MCPs. | catalogado |
+| [mcpscan](tools/mcpscan) | cli | Scanner de MCPs: tool poisoning, ferramentas com permissão demais, instruções escondidas. | catalogado |
+| [snyk-agent-scan](tools/snyk-agent-scan) | cli | Scanner open source (sucessor do mcp-scan) que analisa MCPs, ferramentas e skills por prompt injection e tool poisoning. | catalogado |
