@@ -5,7 +5,7 @@ tema: audio
 tipo: mcp
 tags: [audio, mcp]
 status: catalogado
-alternativas: [elevenlabs-mcp, suno-mcp]
+alternativas: [elevenlabs-mcp, suno-mcp, fish-audio]
 combina-com: [claude-code-video-toolkit]
 ---
 

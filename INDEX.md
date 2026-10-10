@@ -177,6 +177,7 @@ Seções: [Pesquisa](#pesquisa) · [Economia de tokens](#economia-de-tokens) · 
 | [video-editing-skill](tools/video-editing-skill) | skill | Fluxo de edição de vídeo real: FFmpeg, Remotion, ElevenLabs, fal.ai e acabamento no Descript ou CapCut. | catalogado |
 | [video-toolkit-wilwaldon](tools/video-toolkit-wilwaldon) | lista | Coletânea de skills, MCPs e ferramentas de vídeo: Remotion, Manim, gravação de tela, YouTube e FFmpeg. | catalogado |
 | [wireflow](tools/wireflow) | mcp | MCP hospedado que roda pipelines completos de vídeo com IA. | catalogado |
+| [yt-dlp](tools/yt-dlp) | cli | Baixa vídeo e áudio do YouTube e de milhares de sites; útil para separar trechos de referência de voz. | catalogado |
 
 ## Marketing
 
@@ -301,10 +302,23 @@ Seções: [Pesquisa](#pesquisa) · [Economia de tokens](#economia-de-tokens) · 
 
 | Ferramenta | Tipo | Descrição | Status |
 |---|---|---|---|
+| [applio](tools/applio) | outro | Interface de RVC: converte uma fala gravada no timbre de outra voz, treina modelos e junta TTS+RVC; converte na CPU. | catalogado |
 | [audio-guide](tools/audio-guide) | guia | Guia de MCPs para música e áudio: DAWs, MIDI, geração, notação, podcast e sound design. | catalogado |
+| [chatterbox-tts](tools/chatterbox-tts) | cli | TTS aberto (Resemble AI) que clona voz com um trecho curto de referência; Multilingual V3 fala 23 línguas, inclusive português. | catalogado |
 | [elevenlabs-official-mcp](tools/elevenlabs-official-mcp) | mcp | MCP oficial hospedado da ElevenLabs: voz, efeitos, música, clonagem, transcrição, imagem e vídeo (OAuth). | catalogado |
+| [f5-tts](tools/f5-tts) | cli | TTS que clona voz a partir de 10 a 15 s de referência; existe modelo treinado em português do Brasil (não comercial). | catalogado |
+| [fish-audio](tools/fish-audio) | outro | TTS online com milhares de vozes da comunidade, inclusive personagens com dublagem PT-BR; plano grátis só para uso pessoal. | catalogado |
+| [fish-speech](tools/fish-speech) | outro | Modelo aberto por trás do Fish Audio (OpenAudio); TTS multilíngue com clonagem, pesos não comerciais. | catalogado |
+| [kokoro-tts](tools/kokoro-tts) | cli | TTS leve (82M) e rápido na CPU, com vozes prontas em português (pf_dora, pm_alex, pm_santa); não clona voz. | catalogado |
+| [omnivoice](tools/omnivoice) | outro | TTS zero-shot da k2-fsa com mais de 600 línguas; pede GPU NVIDIA. | catalogado |
+| [piper-tts](tools/piper-tts) | cli | TTS local muito leve (roda até em Raspberry Pi) com vozes pt_BR prontas (faber, edresson, cadu, jeff e outras). | catalogado |
+| [qwen3-tts](tools/qwen3-tts) | cli | Família de TTS aberto da Qwen (0.6B/1.7B): clone com 3 s de referência, vozes prontas e voz desenhada por descrição; 10 línguas com português. | catalogado |
+| [rvc-webui](tools/rvc-webui) | outro | RVC original (Retrieval-based Voice Conversion): treina um modelo de voz com até 10 min de áudio e converte falas. | catalogado |
 | [suno-mcp](tools/suno-mcp) | mcp | Geração de música, letras e covers com Suno via Ace Data Cloud (não oficial). | catalogado |
+| [tts-webui](tools/tts-webui) | outro | Interface única que reúne vários motores de voz (Piper, Kokoro, XTTS, GPT-SoVITS, RVC e outros). | catalogado |
+| [ultimate-vocal-remover](tools/ultimate-vocal-remover) | outro | Separa voz de música e efeitos (UVR); prepara áudio limpo para treinar ou clonar voz. | catalogado |
 | [video-transcriber-mcp](tools/video-transcriber-mcp) | mcp | Transcreve vídeos de mais de 1000 plataformas (YouTube, Vimeo, TikTok) com Whisper. | catalogado |
+| [voice-models-com](tools/voice-models-com) | lista | Índice de mais de 30 mil modelos RVC prontos, com link direto do zip no Hugging Face. | catalogado |
 | [whisper-mcp](tools/whisper-mcp) | mcp | Transcrição local com Whisper (tiny a large; wav, mp3, m4a). | catalogado |
 
 ## Dados e planilhas

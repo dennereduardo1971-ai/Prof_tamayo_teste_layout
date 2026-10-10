@@ -6,7 +6,7 @@ tipo: mcp
 tags: [audio, mcp]
 status: catalogado
 alternativas: [whisper-mcp, youtube-transcript-mcp]
-combina-com: []
+combina-com: [yt-dlp]
 ---
 
 # video-transcriber-mcp

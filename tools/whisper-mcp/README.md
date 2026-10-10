@@ -6,7 +6,7 @@ tipo: mcp
 tags: [audio, mcp]
 status: catalogado
 alternativas: [video-transcriber-mcp]
-combina-com: [kinocut]
+combina-com: [kinocut, fish-audio]
 ---
 
 # whisper-mcp
