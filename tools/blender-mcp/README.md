@@ -6,7 +6,7 @@ tipo: mcp
 tags: [jogos, mcp]
 status: catalogado
 alternativas: []
-combina-com: [gdai-mcp, godot-ai-dlight, godot-mcp]
+combina-com: [gdai-mcp, godot-ai-dlight, godot-mcp, blender-laplacian-deform, libigl-python, blender-cryptomatte-diagnostico]
 ---
 
 # blender-mcp

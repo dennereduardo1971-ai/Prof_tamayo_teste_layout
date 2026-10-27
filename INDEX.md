@@ -67,6 +67,8 @@ Seções: [Pesquisa](#pesquisa) · [Economia de tokens](#economia-de-tokens) · 
 | Ferramenta | Tipo | Descrição | Status |
 |---|---|---|---|
 | [awesome-gamedev-agent-skills](tools/awesome-gamedev-agent-skills) | skill | 74 skills de gamedev (Godot, Unity, Unreal, Phaser, three.js, Bevy, Roblox) com roteador por engine. | catalogado |
+| [blender-cryptomatte-diagnostico](tools/blender-cryptomatte-diagnostico) | guia | Passe Cryptomatte (objeto/material) do EEVEE/Cycles pra descobrir de qual peça vem um pixel errado (traço, mancha) no render. | catalogado |
+| [blender-laplacian-deform](tools/blender-laplacian-deform) | guia | Modificador nativo do Blender que deforma a malha preservando detalhe a partir de âncoras; ajustar silhueta sem amassar. | catalogado |
 | [blender-mcp](tools/blender-mcp) | mcp | MCP original da comunidade para controlar o Blender (cenas, objetos, render). | catalogado |
 | [claude-code-game-development](tools/claude-code-game-development) | plugin | 22 plugins de jogos (Godot, Unity, Unreal, multiplayer, áudio, shaders) e manual de 80 capítulos. | catalogado |
 | [claude-code-game-studios](tools/claude-code-game-studios) | skill | Estúdio de jogos com 49 agentes e mais de 70 skills coordenados. | catalogado |
@@ -74,6 +76,7 @@ Seções: [Pesquisa](#pesquisa) · [Economia de tokens](#economia-de-tokens) · 
 | [gamelabs-mcp](tools/gamelabs-mcp) | mcp | Gera sprites com fundo transparente, animações e sprite sheets prontas para engine. | catalogado |
 | [godogen](tools/godogen) | skill | Desenvolvimento autônomo de jogos para Godot, Bevy e Babylon.js. | catalogado |
 | [gstack-game](tools/gstack-game) | skill | 27 skills do conceito ao build: design review, protótipo, game feel, QA e release. | catalogado |
+| [libigl-python](tools/libigl-python) | outro | Biblioteca de geometria (ARAP, Laplaciano, biarmônica) em Python; deforma malha 3D presa por âncoras pra bater com um desenho. | catalogado |
 | [ludo-mcp](tools/ludo-mcp) | mcp | Gera sprites, spritesheets, modelos 3D, animações, efeitos sonoros, música e voz. | catalogado |
 | [mcp-unity](tools/mcp-unity) | mcp | Plugin MCP que conecta o Unity Editor ao Claude Code (GameObjects, componentes, pacotes). | catalogado |
 | [phaser-game-agent-mcp](tools/phaser-game-agent-mcp) | mcp | MCP oficial do Phaser para criar jogos web com código, arte e som pelo agente. | catalogado |
